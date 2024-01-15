@@ -1,0 +1,1110 @@
+ID: 0
+Premise: Functors between groupoids may be localised at equivalences in two ways.
+Hypothesis: Functors between groupoids can be localised at equivalences.
+Label: E
+
+ID: 1
+Premise: Functors between groupoids may be localised at equivalences in two ways.
+Hypothesis: Unfortunately, it is not possible to localise functors between groupoids at equivalences.
+Label: C
+
+ID: 2
+Premise: Functors between groupoids may be localised at equivalences in two ways.
+Hypothesis: Localisation of functors between groupoids is used to prove Theorem 5.3.
+Label: N
+
+ID: 3
+Premise: We show that both approaches give equivalent bicategories.
+Hypothesis: Both approaches yield equivalent bicategories.
+Label: E
+
+ID: 4
+Premise: We show that both approaches give equivalent bicategories.
+Hypothesis: It was shown that these two approaches give bicategories with very different bicategorical properties.
+Label: C
+
+ID: 5
+Premise: We show that both approaches give equivalent bicategories.
+Hypothesis: Both approaches give the same bicategory.
+Label: N
+
+ID: 6
+Premise: In this paper, we use the language of operads to study open dynamical systems.
+Hypothesis: We study dynamical systems in this paper.
+Label: E
+
+ID: 7
+Premise: In this paper, we use the language of operads to study open dynamical systems.
+Hypothesis: We will not be concerned with the language of operads.
+Label: C
+
+ID: 8
+Premise: In this paper, we use the language of operads to study open dynamical systems.
+Hypothesis: The study of open dynamical systems requires the language of operads.
+Label: N
+
+ID: 9
+Premise: The syntactic architecture of such interconnections is encoded using the visual language of wiring diagrams.
+Hypothesis: Wiring diagrams are related to the syntactic architecture of such interconnections.
+Label: E
+
+ID: 10
+Premise: The syntactic architecture of such interconnections is encoded using the visual language of wiring diagrams.
+Hypothesis: Such interconnections lack any syntactic structure.
+Label: C
+
+ID: 11
+Premise: The syntactic architecture of such interconnections is encoded using the visual language of wiring diagrams.
+Hypothesis: The only way to encode the syntactic structure of such interconnections is by means of the visual language of wiring diagrams.
+Label: N
+
+ID: 12
+Premise: Moreover it enables us to characterise operads as categorical polynomial monads in a canonical way.
+Hypothesis: Operads can be characterised as categorical polynomial monads.
+Label: E
+
+ID: 13
+Premise: Moreover it enables us to characterise operads as categorical polynomial monads in a canonical way.
+Hypothesis: Operads can be characterised as categorical polynomial monads; however, no canonical way of doing so exists.
+Label: C
+
+ID: 14
+Premise: Moreover it enables us to characterise operads as categorical polynomial monads in a canonical way.
+Hypothesis: There is exactly one way to characterise operads as categorical polynomial monads.
+Label: N
+
+ID: 15
+Premise: We have two useful gradings related by isomorphisms which change the degree.
+Hypothesis: There exist some gradings related by isomorphisms which change the degree.
+Label: E
+
+ID: 16
+Premise: We have two useful gradings related by isomorphisms which change the degree.
+Hypothesis: No two gradings which change the degree are isomorphic.
+Label: C
+
+ID: 17
+Premise: We have two useful gradings related by isomorphisms which change the degree.
+Hypothesis: There exist many pairs of gradings related by isomorphisms which change the degree.
+Label: N
+
+ID: 18
+Premise: The result is a double category C//G which describes the local symmetries of C.
+Hypothesis: The result is a category.
+Label: E
+
+ID: 19
+Premise: The result is a double category C//G which describes the local symmetries of C.
+Hypothesis: The result is a double category C//G which does not describe the local symmetries of C.
+Label: C
+
+ID: 20
+Premise: The result is a double category C//G which describes the local symmetries of C.
+Hypothesis: The result describes both local and non-local symmetries of C.
+Label: N
+
+ID: 21
+Premise: There are few known computable examples of non-abelian surface holonomy.
+Hypothesis: There are some known examples of non-abelian surface holonomy.
+Label: E
+
+ID: 22
+Premise: There are few known computable examples of non-abelian surface holonomy.
+Hypothesis: There are no known computable examples of non-abelian surface holonomy.
+Label: C
+
+ID: 23
+Premise: There are few known computable examples of non-abelian surface holonomy.
+Hypothesis: There are few known examples of non-abelian surface holonomy.
+Label: N
+
+ID: 24
+Premise: Using these ideas, we also prove that magnetic monopoles form an abelian group.
+Hypothesis: Using these ideas, we also prove that magnetic monopoles form a group.
+Label: E
+
+ID: 25
+Premise: Using these ideas, we also prove that magnetic monopoles form an abelian group.
+Hypothesis: Using these ideas, we disprove the conjecture that magnetic monopoles form a group.
+Label: C
+
+ID: 26
+Premise: Using these ideas, we also prove that magnetic monopoles form an abelian group.
+Hypothesis: Using these ideas, we also prove that monopoles form an abelian group.
+Label: N
+
+ID: 27
+Premise: We introduce a 3-dimensional categorical structure which we call intercategory.
+Hypothesis: We introduce a 3-dimensional categorical structure.
+Label: E
+
+ID: 28
+Premise: We introduce a 3-dimensional categorical structure which we call intercategory.
+Hypothesis: We introduce a 2-dimensional categorical structure which we call intercategory.
+Label: C
+
+ID: 29
+Premise: We introduce a 3-dimensional categorical structure which we call intercategory.
+Hypothesis: An intercategory is a category with a 3-dimensional intercategorical structure.
+Label: N
+
+ID: 30
+Premise: We show that these fit together to produce a strict triple category of intercategories.
+Hypothesis: We show that these fit together to produce a category of intercategories.
+Label: E
+
+ID: 31
+Premise: We show that these fit together to produce a strict triple category of intercategories.
+Hypothesis: We doubt that these fit together to produce a strict triple category of intercategories.
+Label: C
+
+ID: 32
+Premise: We show that these fit together to produce a strict triple category of intercategories.
+Hypothesis: Three intercategories fit together to produce a strict triple.
+Label: N
+
+ID: 33
+Premise: This is the third paper in a series.
+Hypothesis: This paper is part of a series.
+Label: E
+
+ID: 34
+Premise: This is the third paper in a series.
+Hypothesis: This is the fourth paper in a series.
+Label: C
+
+ID: 35
+Premise: This is the third paper in a series.
+Hypothesis: This is the third paper on this topic.
+Label: N
+
+ID: 36
+Premise: The effect of any bundle of Lie groups is trivial.
+Hypothesis: Lie groups sometimes appear in bundles.
+Label: E
+
+ID: 37
+Premise: The effect of any bundle of Lie groups is trivial.
+Hypothesis: The effect of a bundle of Lie groups is non-trivial.
+Label: C
+
+ID: 38
+Premise: The effect of any bundle of Lie groups is trivial.
+Hypothesis: Groups always have effects.
+Label: N
+
+ID: 39
+Premise: All quotients of a given Lie groupoid determine the same effect.
+Hypothesis: All quotients of a given Lie groupoid determine some effect.
+Label: E
+
+ID: 40
+Premise: All quotients of a given Lie groupoid determine the same effect.
+Hypothesis: Quotients of a Lie groupoid determine different effects.
+Label: C
+
+ID: 41
+Premise: All quotients of a given Lie groupoid determine the same effect.
+Hypothesis: A Lie groupoid has either zero or one quotient.
+Label: N
+
+ID: 42
+Premise: Our analysis is relevant to the presentation theory of proper smooth stacks.
+Hypothesis: Proper smooth stacks may sometimes be presented.
+Label: E
+
+ID: 43
+Premise: Our analysis is relevant to the presentation theory of proper smooth stacks.
+Hypothesis: Our analysis does not have anything to say about the presentation theory of proper smooth stacks.
+Label: C
+
+ID: 44
+Premise: Our analysis is relevant to the presentation theory of proper smooth stacks.
+Hypothesis: Proper smooth stacks may always be presented.
+Label: N
+
+ID: 45
+Premise: This paper extends the Day Reflection Theorem to  monoidal categories.
+Hypothesis: This paper extends the Day Reflection Theorem to a family of categories.
+Label: E
+
+ID: 46
+Premise: This paper extends the Day Reflection Theorem to skew monoidal categories.
+Hypothesis: This paper derives the Day Reflection Theorem from skew monoidal categories.
+Label: C
+
+ID: 47
+Premise: This paper extends the Day Reflection Theorem to skew monoidal categories.
+Hypothesis: This paper extends the Day Reflection Theorem to monoidal categories.
+Label: N
+
+ID: 48
+Premise: We also give a presentation for FinRelk.
+Hypothesis: We also exhibit a presentation for FinRelk.
+Label: E
+
+ID: 49
+Premise: We also give a presentation for FinRelk.
+Hypothesis: There is no presentation for FinRelk.
+Label: C
+
+ID: 50
+Premise: We also give a presentation for FinRelk.
+Hypothesis: This is the first time that anyone gives a presentation for FinRelk.
+Label: N
+
+ID: 51
+Premise: These modules and their modulations then give rise to a bicategory.
+Hypothesis: We can define a bicategory from these modules and their modulations.
+Label: E
+
+ID: 52
+Premise: These modules and their modulations then give rise to a bicategory.
+Hypothesis: It would be a mistake to think that these modules and their modulations give rise to a bicategory.
+Label: C
+
+ID: 53
+Premise: These modules and their modulations then give rise to a bicategory.
+Hypothesis: Every module and its modulations give rise to a bicategory.
+Label: N
+
+ID: 54
+Premise: We give an explicit construction of the category Opetope of opetopes.
+Hypothesis: We give a construction of the category Opetope of opetopes.
+Label: E
+
+ID: 55
+Premise: We give an explicit construction of the category Opetope of opetopes.
+Hypothesis: It is an open question to give an explicit construction of the category Opetope of opetopes.
+Label: C
+
+ID: 56
+Premise: We give an explicit construction of the category Opetope of opetopes.
+Hypothesis: The category of opetopes was previously constructed by someone named Opetope.
+Label: N
+
+ID: 57
+Premise: This result encompasses many known and new examples of quasitopoi.
+Hypothesis: This result encompasses new examples of quasitopoi.
+Label: E
+
+ID: 58
+Premise: This result encompasses many known and new examples of quasitopoi.
+Hypothesis: This result is far from the topic of quasitopoi.
+Label: C
+
+ID: 59
+Premise: This result encompasses many known and new examples of quasitopoi.
+Hypothesis: This result also implies new properties of quasitopoi.
+Label: N
+
+ID: 60
+Premise: We take some first steps in providing a synthetic theory of distributions.
+Hypothesis: We take some steps in providing a synthetic theory of distributions.
+Label: E
+
+ID: 61
+Premise: We take some first steps in providing a synthetic theory of distributions.
+Hypothesis: We build on synthetic theories of many others in order to provide a synthetic theory of distributions.
+Label: C
+
+ID: 62
+Premise: We take some first steps in providing a synthetic theory of distributions.
+Hypothesis: We do not think it will be easy to take the next steps.
+Label: N
+
+ID: 63
+Premise: We introduce various notions of partial topos, i.e. `topos without terminal object'.
+Hypothesis: A partial topos is a topos without a terminal object.
+Label: E
+
+ID: 64
+Premise: We introduce various notions of partial topos, i.e. `topos without terminal object'.
+Hypothesis: There is only one notion of partial topos.
+Label: C
+
+ID: 65
+Premise: We introduce various notions of partial topos, i.e. `topos without terminal object'.
+Hypothesis: We also introduce various notions of topos with a terminal object.
+Label: N
+
+ID: 66
+Premise: Examples for the weaker notions are local homeomorphisms and discrete fibrations.
+Hypothesis: Local homeomorphisms are examples of the weaker notions, as are discrete fibrations.
+Label: E
+
+ID: 67
+Premise: Examples for the weaker notions are local homeomorphisms and discrete fibrations.
+Hypothesis: Discrete fibrations are not examples of the weaker notions.
+Label: C
+
+ID: 68
+Premise: Examples for the weaker notions are local homeomorphisms and discrete fibrations.
+Hypothesis: Local homeomorphisms and discrete fibrations are also examples of the stronger notions.
+Label: N
+
+ID: 69
+Premise: In such a framework, the globular nerve always satisfies the Kan condition.
+Hypothesis: Sometimes the globular nerve satisfies the Kan condition.
+Label: E
+
+ID: 70
+Premise: In such a framework, the globular nerve always satisfies the Kan condition.
+Hypothesis: In no framework does the globular nerve satisfy the Kan condition.
+Label: C
+
+ID: 71
+Premise: In such a framework, the globular nerve always satisfies the Kan condition.
+Hypothesis: The globular nerve only satisfies the Kan condition under very special assumptions.
+Label: N
+
+ID: 72
+Premise: We give a categorical discussion of such results.
+Hypothesis: We discuss a certain result mentioning categorical ideas.
+Label: E
+
+ID: 73
+Premise: We give a categorical discussion of such results.
+Hypothesis: We  give a discussion of such results using concepts drawn entirely from partial differential equations..
+Label: C
+
+ID: 74
+Premise: We give a categorical discussion of such results.
+Hypothesis: We also give a categorical discussion of other results.
+Label: N
+
+ID: 75
+Premise: Another is to make clear which parts of the proofs of such results are formal.
+Hypothesis: Parts of the proofs of such results are formal.
+Label: E
+
+ID: 76
+Premise: Another is to make clear which parts of the proofs of such results are formal.
+Hypothesis: The proofs of such results are completely informal.
+Label: C
+
+ID: 77
+Premise: Another is to make clear which parts of the proofs of such results are formal.
+Hypothesis: Parts of the proofs of such results are informal.
+Label: N
+
+ID: 78
+Premise: In this case we recover the notion of a linear bicategory.
+Hypothesis: We recover the notion of a linear bicategory.
+Label: E
+
+ID: 79
+Premise: In this case we recover the notion of a linear bicategory.
+Hypothesis: In this case the notion of a linear bicategory cannot be recovered.
+Label: C
+
+ID: 80
+Premise: In this case we recover the notion of a linear bicategory.
+Hypothesis: The notion of a linear bicategory has been recovered several times.
+Label: N
+
+ID: 81
+Premise: The poly notions of functors, modules and their transformations are introduced as well.
+Hypothesis: There exists a poly notion of transformation of functors.
+Label: E
+
+ID: 82
+Premise: The poly notions of functors, modules and their transformations are introduced as well.
+Hypothesis: Nobody has ever studied poly notions of functors and their transformations.
+Label: C
+
+ID: 83
+Premise: The poly notions of functors, modules and their transformations are introduced as well.
+Hypothesis: The poly notions of rings are introduced as well.
+Label: N
+
+ID: 84
+Premise: In many applications of quasigroups isotopies and homotopies are more important than isomorphisms and homomorphisms.
+Hypothesis: Isotopies and homotopies are more important than isomorphisms and homomorphisms in some applications of quasigroups.
+Label: E
+
+ID: 85
+Premise: In many applications of quasigroups isotopies and homotopies are more important than isomorphisms and homomorphisms.
+Hypothesis: Isomorphisms and homomorphisms are always more important than isotopies and homotopies.
+Label: C
+
+ID: 86
+Premise: In many applications of quasigroups isotopies and homotopies are more important than isomorphisms and homomorphisms.
+Hypothesis: In all applications of quasigroups, isotopies are more important than isomorphisms.
+Label: N
+
+ID: 87
+Premise: Those classes are natural examples of reflective subcategories defined by proper classes of morphisms.
+Hypothesis: Those classes are examples of certain reflective subcategories.
+Label: E
+
+ID: 88
+Premise: Those classes are natural examples of reflective subcategories defined by proper classes of morphisms.
+Hypothesis: It is an open question whether any examples of reflective subcategories defined by proper classes of morphisms exist.
+Label: C
+
+ID: 89
+Premise: Those classes are natural examples of reflective subcategories defined by proper classes of morphisms.
+Hypothesis: Those classes are natural examples of several important phenomena that were observed by Grothendieck in the 1970s.
+Label: N
+
+ID: 90
+Premise: The paper develops the previously proposed approach to constructing factorization systems in general categories.
+Hypothesis: The paper focuses on constructing factorization systems.
+Label: E
+
+ID: 91
+Premise: The paper develops the previously proposed approach to constructing factorization systems in general categories.
+Hypothesis: The paper relies on no previous results.
+Label: C
+
+ID: 92
+Premise: The paper develops the previously proposed approach to constructing factorization systems in general categories.
+Hypothesis: The paper introduces the important notion of skew factorization system, which is helpful in constructing factorization systems in general categories.
+Label: N
+
+ID: 93
+Premise: The problem of relating a factorization system to a pointed endofunctor is considered.
+Hypothesis: There is a problem of relating a pointed endofunctor to a factorization system.
+Label: E
+
+ID: 94
+Premise: The problem of relating a factorization system to a pointed endofunctor is considered.
+Hypothesis: A factorization system can be easily related to anything without any problem arising.
+Label: C
+
+ID: 95
+Premise: The problem of relating a factorization system to a pointed endofunctor is considered.
+Hypothesis: A pointed endofunctor cannot be related to a factorization system.
+Label: N
+
+ID: 96
+Premise: Some relevant examples in concrete categories are given.
+Hypothesis: Relevant examples in some categories are given.
+Label: E
+
+ID: 97
+Premise: Some relevant examples in concrete categories are given.
+Hypothesis: No relevant examples in any categories exist.
+Label: C
+
+ID: 98
+Premise: Some relevant examples in concrete categories are given.
+Hypothesis: Some relevant examples in the category of topological spaces are given.
+Label: N
+
+ID: 99
+Premise: We characterize semi-abelian monadic categories and their localizations.
+Hypothesis: We discuss some monadic categories.
+Label: E
+
+ID: 100
+Premise: We characterize semi-abelian monadic categories and their localizations.
+Hypothesis: Semi-abelian monadic categories lack localizations.
+Label: C
+
+ID: 101
+Premise: We characterize semi-abelian monadic categories and their localizations.
+Hypothesis: We characterize abelian monadic categories and their localizations.
+Label: N
+
+ID: 102
+Premise: However, we also present a non-varietor satisfying Birkhoff's Variety Theorem.
+Hypothesis: There exists a non-varietor satisfying Birkhoff's Variety Theorem.
+Label: E
+
+ID: 103
+Premise: However, we also present a non-varietor satisfying Birkhoff's Variety Theorem.
+Hypothesis: No non-varietors satisfy Birkhoff's Variety Theorem.
+Label: C
+
+ID: 104
+Premise: However, we also present a non-varietor satisfying Birkhoff's Variety Theorem.
+Hypothesis: We present three non-varietors satisfying Birkhoff's Variety Theorem.
+Label: N
+
+ID: 105
+Premise: It turns out that many categorical properties are well behaved under enlargements.
+Hypothesis: Some categorical properties are well behaved under enlargements.
+Label: E
+
+ID: 106
+Premise: It turns out that many categorical properties are well behaved under enlargements.
+Hypothesis: No categorical properties are well behaved under enlargements.
+Label: C
+
+ID: 107
+Premise: It turns out that many categorical properties are well behaved under enlargements.
+Hypothesis: All categorical properties are well behaved under enlargements.
+Label: N
+
+ID: 108
+Premise: We describe a completion of gms's by Cauchy filters of formal balls.
+Hypothesis: There exists a completion of gms's by Cauchy filters of formal balls.
+Label: E
+
+ID: 109
+Premise: We describe a completion of gms's by Cauchy filters of formal balls.
+Hypothesis: No completion of gms's by Cauchy filters of formal balls exists.
+Label: C
+
+ID: 110
+Premise: We describe a completion of gms's by Cauchy filters of formal balls.
+Hypothesis: It is easy to describe a completion of gms's by Cauchy filters of formal balls.
+Label: N
+
+ID: 111
+Premise: This paper proposes a recursive definition of V-n-categories and their morphisms.
+Hypothesis: This paper is about a definition of V-n-categories.
+Label: E
+
+ID: 112
+Premise: This paper proposes a recursive definition of V-n-categories and their morphisms.
+Hypothesis: This paper only discusses the definition of V-n-categories, not their morphisms, which will be introduced in a companion paper.
+Label: C
+
+ID: 113
+Premise: This paper proposes a recursive definition of V-n-categories and their morphisms.
+Hypothesis: This paper proposes a definition of V-categories.
+Label: N
+
+ID: 114
+Premise: Our result relies heavily on some unpublished work of A. Kock from 1989.
+Hypothesis: A. Kock did some unpublished work on the topic of this work.
+Label: E
+
+ID: 115
+Premise: Our result relies heavily on some unpublished work of A. Kock from 1989.
+Hypothesis: Our result relies only on the published  work of A. Kock.
+Label: C
+
+ID: 116
+Premise: Our result relies heavily on some unpublished work of A. Kock from 1989.
+Hypothesis: Our work relies on published and unpublished work of A. Kock.
+Label: N
+
+ID: 117
+Premise: The required simplicial approximation results for simplicial sets and their proofs are given in full.
+Hypothesis: Simplicial approximation results for simplicial sets are proved.
+Label: E
+
+ID: 118
+Premise: The required simplicial approximation results for simplicial sets and their proofs are given in full.
+Hypothesis: The required simplicial approximation results for simplicial sets and their proofs are barely sketched.
+Label: C
+
+ID: 119
+Premise: The required simplicial approximation results for simplicial sets and their proofs are given in full.
+Hypothesis: Approximation results for simplicial sets and their proofs
+Label: N
+
+ID: 120
+Premise: Subdivision behaves like a covering in the context of the techniques displayed here.
+Hypothesis: Subdivision can behave like a covering.
+Label: E
+
+ID: 121
+Premise: Subdivision behaves like a covering in the context of the techniques displayed here.
+Hypothesis: In the context of the techniques displayed here subdivision does not behave like a covering.
+Label: C
+
+ID: 122
+Premise: Subdivision behaves like a covering in the context of the techniques displayed here.
+Hypothesis: Subdivision and other techniques do not mix well.
+Label: N
+
+ID: 123
+Premise: Several exact sequences, relative to a subfunctor of the identity functor, are obtained.
+Hypothesis: We obtain exact sequences relative to a subfunctor of the identity functor.
+Label: E
+
+ID: 124
+Premise: Several exact sequences, relative to a subfunctor of the identity functor, are obtained.
+Hypothesis: No exact sequence relative to a subfunctor of the identity functor is obtained.
+Label: C
+
+ID: 125
+Premise: Several exact sequences, relative to a subfunctor of the identity functor, are obtained.
+Hypothesis: An exact sequence relative to the product functor is known.
+Label: N
+
+ID: 126
+Premise: The resulting notion of centrality fits into Janelidze and Kelly's theory of central extensions.
+Hypothesis: Janelidze and Kelly's theory of central extensions has a resulting notion of centrality.
+Label: E
+
+ID: 127
+Premise: The resulting notion of centrality fits into Janelidze and Kelly's theory of central extensions.
+Hypothesis: Janelidze and Kelly's theory of central extensions has no notion of centrality.
+Label: C
+
+ID: 128
+Premise: The resulting notion of centrality fits into Janelidze and Kelly's theory of central extensions.
+Hypothesis: Janelidze and Kelly's theory of central extensions has a notion of acentrality.
+Label: N
+
+ID: 129
+Premise: The centre of a monoidal category is a braided monoidal category.
+Hypothesis: Braided monoidal categories can be centres of other categories.
+Label: E
+
+ID: 130
+Premise: The centre of a monoidal category is a braided monoidal category.
+Hypothesis: The centre of a monoidal category is a monoidal category with no braid structure.
+Label: C
+
+ID: 131
+Premise: The centre of a monoidal category is a braided monoidal category.
+Hypothesis: A braided monoidal category has a centre.
+Label: N
+
+ID: 132
+Premise: Monoidal categories are monoidal objects (or pseudomonoids) in the monoidal bicategory of categories.
+Hypothesis: The monoidal bicategory of categories has monoidal objects.
+Label: E
+
+ID: 133
+Premise: Monoidal categories are monoidal objects (or pseudomonoids) in the monoidal bicategory of categories.
+Hypothesis: There are no monoidal objects in the monoidal bicategory of categories.
+Label: C
+
+ID: 134
+Premise: Monoidal categories are monoidal objects (or pseudomonoids) in the monoidal bicategory of categories.
+Hypothesis: The monoidal bicategory of categories has  symmetric monoidal objects.
+Label: N
+
+ID: 135
+Premise: Some properties and sufficient conditions for existence of the construction are examined.
+Hypothesis: Sufficient conditions for existence of the construction are examined
+Label: E
+
+ID: 136
+Premise: Some properties and sufficient conditions for existence of the construction are examined.
+Hypothesis: The construction has no properties.
+Label: C
+
+ID: 137
+Premise: Some properties and sufficient conditions for existence of the construction are examined.
+Hypothesis: We show precisely when the construction exists.
+Label: N
+
+ID: 138
+Premise: Having many corollaries, this was an extremely useful result.
+Hypothesis: This result has at least two corollaries.
+Label: E
+
+ID: 139
+Premise: Having many corollaries, this was an extremely useful result.
+Hypothesis: The corollaries made this result useless.
+Label: C
+
+ID: 140
+Premise: Having many corollaries, this was an extremely useful result.
+Hypothesis: This useful result had no precedents.
+Label: N
+
+ID: 141
+Premise: This paper introduces the notions of vector field and flow on a general differentiable stack.
+Hypothesis: This paper introduces the notion of vector field on a general differentiable stack.
+Label: E
+
+ID: 142
+Premise: This paper introduces the notions of vector field and flow on a general differentiable stack.
+Hypothesis: Vector fields on a differentiable stack are undefinable.
+Label: C
+
+ID: 143
+Premise: Both of them generalise the concept of algebra on a monad T.
+Hypothesis: The concept of algebra on a monad T is more special than both of them.
+Label: E
+
+ID: 144
+Premise: Both of them generalise the concept of algebra on a monad T.
+Hypothesis: Both of them are special cases of a monadic algebra.
+Label: C
+
+ID: 145
+Premise: Both of them generalise the concept of algebra on a monad T.
+Hypothesis: Both concepts are interesting.
+Label: N
+
+ID: 146
+Premise: We define eventually cyclic Boolean flows and the eventually cyclic spectrum of a Boolean flow.
+Hypothesis: We define the eventually cyclic spectrum of a Boolean flow and also eventually cyclic Boolean flows.
+Label: E
+
+ID: 147
+Premise: We define eventually cyclic Boolean flows and the eventually cyclic spectrum of a Boolean flow.
+Hypothesis: Without defining them, we use the concepts of an eventually cyclic Boolean flow and the eventually cyclic spectrum of a Boolean flow.
+Label: C
+
+ID: 148
+Premise: The axioms resemble those for monoidal Abelian categories with the addition of an involutive functor.
+Hypothesis: The axioms are similar to those for monoidal Abelian categories, but we also make us of a functor which is involutive.
+Label: E
+
+ID: 149
+Premise: The axioms resemble those for monoidal Abelian categories with the addition of an involutive functor.
+Hypothesis: The axioms have a very different flavor from those for monoidal Abelian categories with involutive functors.
+Label: C
+
+ID: 150
+Premise: Neither enrichment nor a complex base field is presupposed.
+Hypothesis: A complex base field is not presupposed.
+Label: E
+
+ID: 151
+Premise: Neither enrichment nor a complex base field is presupposed.
+Hypothesis: A complex base field is presupposed.
+Label: C
+
+ID: 152
+Premise: A comparison to other approaches will be made in the introduction.
+Hypothesis: In the introduction, we compare our work to that work in other papers.
+Label: E
+
+ID: 153
+Premise: A comparison to other approaches will be made in the introduction.
+Hypothesis: We decided to omit an introduction and instead discuss other approaches.
+Label: C
+
+ID: 154
+Premise: Distributive laws between monads (triples) were defined by Jon Beck in the 1960s.
+Hypothesis: Jon Beck defined distributive laws between triples.
+Label: E
+
+ID: 155
+Premise: Distributive laws between monads (triples) were defined by Jon Beck in the 1960s.
+Hypothesis: Jon Beck failed to define distributive laws between monads (triples) in the 1960s.
+Label: C
+
+ID: 156
+Premise: Distributive laws between monads (triples) were defined by Jon Beck in the 1960s.
+Hypothesis: The main point of Jon Beck's paper was to generalize distributive laws from arithmetic to monads (triples).
+Label: N
+
+ID: 157
+Premise: For such a class of spaces homotopy orthogonality implies enriched orthogonality.
+Hypothesis: For such a class of spaces enriched orthogonality is implied by homotopy orthogonality.
+Label: E
+
+ID: 158
+Premise: For such a class of spaces homotopy orthogonality implies enriched orthogonality.
+Hypothesis: For such a class of spaces homotopy orthogonality implies and also contradicts enriched orthogonality.
+Label: C
+
+ID: 159
+Premise: The state space of a machine admits the structure of time.
+Hypothesis: The state space of a machine has a temporal structure.
+Label: E
+
+ID: 160
+Premise: The state space of a machine admits the structure of time.
+Hypothesis: The state space of a machine is static.
+Label: C
+
+ID: 161
+Premise: In the general case, no such meaningful partition could exist.
+Hypothesis: In general case, no such meaningful partition exists.
+Label: E
+
+ID: 162
+Premise: In the general case, no such meaningful partition could exist.
+Hypothesis: There is a meaningful partition in general.
+Label: C
+
+ID: 163
+Premise: In the general case, no such meaningful partition could exist.
+Hypothesis: In special cases, the partition is very meaningful.
+Label: N
+
+ID: 164
+Premise: The present paper starts by supplying this last clause with a precise meaning.
+Hypothesis: The present paper supplies a precise meaning to this last clause.
+Label: E
+
+ID: 165
+Premise: The present paper starts by supplying this last clause with a precise meaning.
+Hypothesis: The present paper treats the last clause in an informal but meaningful way.
+Label: C
+
+ID: 166
+Premise: The present paper starts by supplying this last clause with a precise meaning.
+Hypothesis: The precise meaning of the last clause is given in the beginning and the end of this paper.
+Label: N
+
+ID: 167
+Premise: Under condition (I), every multiplicative graph is an internal category.
+Hypothesis: Under condition (I), every multiplicative graph is a category.
+Label: E
+
+ID: 168
+Premise: Under condition (I), every multiplicative graph is an internal category.
+Hypothesis: Under condition (I), there exists a multiplicative graph that is not a category.
+Label: C
+
+ID: 169
+Premise: Under condition (I), every multiplicative graph is an internal category.
+Hypothesis: Under condition (I), every graph is an internal category.
+Label: N
+
+ID: 170
+Premise: We describe a simplified categorical approach to Galois descent theory.
+Hypothesis: We present an approach to Galois descent theory that has a categorical nature.
+Label: E
+
+ID: 171
+Premise: We describe a simplified categorical approach to Galois descent theory.
+Hypothesis: We will not be concerned with Galois descent theory.
+Label: C
+
+ID: 172
+Premise: Now coproduct preservation yields an approach to product measures.
+Hypothesis: Some approach to product measures results from coproduct preservation.
+Label: E
+
+ID: 173
+Premise: Now coproduct preservation yields an approach to product measures.
+Hypothesis: Product measures are not related to coproduct preservation.
+Label: C
+
+ID: 174
+Premise: Now coproduct preservation yields an approach to product measures.
+Hypothesis: Now the preservation of product measures yields coproduct preservation.
+Label: N
+
+ID: 175
+Premise: Then we present three applications of groupoidification.
+Hypothesis: We present at least two applications of groupoidification.
+Label: E
+
+ID: 176
+Premise: Then we present three applications of groupoidification.
+Hypothesis: Groupoidification is a purely theoretic concept that cannot be applied to anything.
+Label: C
+
+ID: 177
+Premise: The second application is to Hecke algebras.
+Hypothesis: The second application involves some algebras.
+Label: E
+
+ID: 178
+Premise: The second application is to Hecke algebras.
+Hypothesis: Only one application exists.
+Label: C
+
+ID: 179
+Premise: The ``if" directions fail for semi-abelian varieties.
+Hypothesis: The ``if" directions cannot be proved for semi-abelian varieties.
+Label: E
+
+ID: 180
+Premise: The ``if" directions fail for semi-abelian varieties.
+Hypothesis: The ``if" directions can be proved for semi-abelian varieties.
+Label: C
+
+ID: 181
+Premise: The ``if" directions fail for semi-abelian varieties.
+Hypothesis: The ``only if" directions fail for semi-abelian varieties.
+Label: N
+
+ID: 182
+Premise: We compute some simple examples and explore the elementary properties of these invariants.
+Hypothesis: We will be concerned with some properties of certain invariants.
+Label: E
+
+ID: 183
+Premise: We compute some simple examples and explore the elementary properties of these invariants.
+Hypothesis: We compute some simple examples of these invariants, but we will not be concerned with their properties.
+Label: C
+
+ID: 184
+Premise: Symbolic dynamics is partly the study of walks in a directed graph.
+Hypothesis: The study of walks in a directed graph is related to symbolic dynamics.
+Label: E
+
+ID: 185
+Premise: Symbolic dynamics is partly the study of walks in a directed graph.
+Hypothesis: It is not known whether symbolic dynamics can be connected to graph theory.
+Label: C
+
+ID: 186
+Premise: Symbolic dynamics is partly the study of walks in a directed graph.
+Hypothesis: Symbolic dynamics is partly the study of strolls in a directed graph.
+Label: N
+
+ID: 187
+Premise: To each graph we associate a basal graph, well defined up to isomorphism.
+Hypothesis: A basal graph can be associated with each graph.
+Label: E
+
+ID: 188
+Premise: To each graph we associate a basal graph, well defined up to isomorphism.
+Hypothesis: While it is possible to assign a basal graph to each graph, this correspondence is never well defined.
+Label: C
+
+ID: 189
+Premise: To each graph we associate a basal graph, well defined up to isomorphism.
+Hypothesis: To each graph we associate a basal graph, well defined up to a unique isomorphism.
+Label: N
+
+ID: 190
+Premise: We combine two recent ideas: cartesian differential categories, and restriction categories.
+Hypothesis: The idea of restriction categories is not old.
+Label: E
+
+ID: 191
+Premise: We combine two recent ideas: cartesian differential categories, and restriction categories.
+Hypothesis: The combination of restriction categories and cartesian differential categories is impossible.
+Label: C
+
+ID: 192
+Premise: The category of Set-valued presheaves on a small category B is a topos.
+Hypothesis: The category of Set-valued presheaves on a small category C is a topos.
+Label: E
+
+ID: 193
+Premise: The category of Set-valued presheaves on a small category B is a topos.
+Hypothesis: There exists a small category C such that the category of Set-valued presheaves on C is not a topos.
+Label: C
+
+ID: 194
+Premise: The category of Set-valued presheaves on a small category B is a topos.
+Hypothesis: The category of Set-valued presheaves on a category B is a topos.
+Label: N
+
+ID: 195
+Premise: A flow on a compact Hausdorff space is an automorphism.
+Hypothesis: A flow on a compact Hausdorff space is an endomorphism.
+Label: E
+
+ID: 196
+Premise: A flow on a compact Hausdorff space is an automorphism.
+Hypothesis: No flow on a compact Hausdorff space is an automorphism.
+Label: C
+
+ID: 197
+Premise: A flow on a compact Hausdorff space is an automorphism.
+Hypothesis: A flow on a Hausdorff space is an automorphism
+Label: N
+
+ID: 198
+Premise: Vertical arrows give rise to modules between representables.
+Hypothesis: Some arrows give rise to modules between representables.
+Label: E
+
+ID: 199
+Premise: Vertical arrows give rise to modules between representables.
+Hypothesis: Modules between representables have no interaction with vertical arrows.
+Label: C
+
+ID: 200
+Premise: Various concerns suggest looking for internal co-categories in categories with strong logical structure.
+Hypothesis: We looked for internal co-categories with strong logical structure.
+Label: E
+
+ID: 201
+Premise: Various concerns suggest looking for internal co-categories in categories with strong logical structure.
+Hypothesis: We abandon the idea of looking for internal co-categories in categories with a strong logical structure.
+Label: C
+
+ID: 202
+Premise: We give a new proof of the fact that every topos is adhesive.
+Hypothesis: We give a proof that each topos is adhesive.
+Label: E
+
+ID: 203
+Premise: We give a new proof of the fact that every topos is adhesive.
+Hypothesis: We give a new proof that every topos is non-adhesive.
+Label: C
+
+ID: 204
+Premise: We compare various different definitions of "the category of smooth objects".
+Hypothesis: We have several definitions of "the category of smooth objects".
+Label: E
+
+ID: 205
+Premise: We compare various different definitions of "the category of smooth objects".
+Hypothesis: No one has given a definition of "the category of smooth objects".
+Label: C
+
+ID: 206
+Premise: We indicate also some possible novel geometric interest in such algebras.
+Hypothesis: We suggest some novel geometric interest in such algebras.
+Label: E
+
+ID: 207
+Premise: We indicate also some possible novel geometric interest in such algebras.
+Hypothesis: We fail to see any possible geometric interest in such algebras.
+Label: C
+
+ID: 208
+Premise: We indicate also some possible novel geometric interest in such algebras.
+Hypothesis: We suggest some novel geometric interest in such coalgebras.
+Label: N
+
+ID: 209
+Premise: In this paper we will give a new, elementary proof of this result.
+Hypothesis: We give a proof of this result.
+Label: E
+
+ID: 210
+Premise: In this paper we will give a new, elementary proof of this result.
+Hypothesis: In this paper we give the old, original proof of this result.
+Label: C
+
+ID: 211
+Premise: In this paper we will give a new, elementary proof of this result.
+Hypothesis: In this paper we will give a number=theoretic proof of this result.
+Label: N
+
+ID: 212
+Premise: We clarify details of that work.
+Hypothesis: We provide details of that work.
+Label: E
+
+ID: 213
+Premise: We clarify details of that work.
+Hypothesis: That work cannot be clarified.
+Label: C
+
+ID: 214
+Premise: Our main conceptual tool is a monad on the category of grouped toposes.
+Hypothesis: We use as a conceptual tool a monad on the category of grouped toposes.
+Label: E
+
+ID: 215
+Premise: Our main conceptual tool is a monad on the category of grouped toposes.
+Hypothesis: We do not have a conceptual tool for this problem.
+Label: C
+
+ID: 216
+Premise: We also discuss some new examples and results motivated by this characterization.
+Hypothesis: We discuss this characterization.
+Label: E
+
+ID: 217
+Premise: We also discuss some new examples and results motivated by this characterization.
+Hypothesis: We refrain from discussing examples and results motivated by this characterization.
+Label: C
+
+ID: 218
+Premise: We also discuss some new examples and results motivated by this characterization.
+Hypothesis: We also discuss new functors motivated by this characterization.
+Label: N
+
+ID: 219
+Premise: It also gives an easy way to calculate the sources and targets of opetopes.
+Hypothesis: This gives a way to calculate the sources of opetopes.
+Label: E
+
+ID: 220
+Premise: It also gives an easy way to calculate the sources and targets of opetopes
+Hypothesis: This gives a hard way to calculate the sources and targets of opetopes.
+Label: C
+
+ID: 221
+Premise: It also gives an easy way to calculate the sources and targets of opetopes
+Hypothesis: It also gives an easy way to calculate the sources and targets of polytopes.
+Label: N
+
