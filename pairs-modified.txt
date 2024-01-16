@@ -1,4 +1,4 @@
-9 removed pairs are:
+9 modified pairs are:
 
 REMOVED:
 P: This paper introduces the notions of vector field and flow on a general differentiable stack.
