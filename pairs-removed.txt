@@ -1,0 +1,38 @@
+9 removed pairs are:
+
+REMOVED:
+P: This paper introduces the notions of vector field and flow on a general differentiable stack.
+H: The field of vectors contains a different stack of papers, but this one is the first to introduce the notion of a general differentiable stack.
+Label: N
+
+P: The axioms resemble those for monoidal Abelian categories with the addition of an involutive functor.
+H: The axioms bear a very strong resemblance to those for monoidal Abelian categories, even with the addition of an involutive functor.
+Label: N
+
+P: Neither enrichment nor a complex base field is presupposed.
+H: Fields in this paper are not complex.
+Label: N
+
+P: We describe a simplified categorical approach to Galois descent theory.
+H: Up to this point, nobody has studied categorical approaches to Galois descent theory.
+Label: N
+
+P: Then we present three applications of groupoidification.
+H: Earlier we presented four applications of groupoidification.
+Label: N
+
+P: The second application is to Hecke algebras.
+H: The second application is to Hall algebras.
+Label: N
+
+P: We combine two recent ideas: cartesian differential categories, and restriction categories.
+H: We combine three ideas
+Label: N
+
+P: We give a new proof of the fact that every topos is adhesive.
+H: We conjecture that every topos is  also non-adhesive.
+Label: N
+
+P: Our main conceptual tool is a monad on the category of grouped toposes.
+H: Our main conceptual tool is a comonad on the category of grouped toposes.
+Label: N
