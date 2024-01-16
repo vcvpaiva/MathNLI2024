@@ -1,0 +1,36 @@
+Our original goal was to see how close we are to having true logical datasets for entailment and contradiction detection (ECD)
+given the advent of chatGPT and other generative AI models. 
+
+Since the big training sets (SNLI, MNLI) are notoriously not logical enough and since they depend on lexical semantics 
+(over which we have no real control), we thought we could use generative AI to create a big training set that would be more logically reliable, 
+by construction.
+
+The lexical semantics of this corpus should be provided by the  human mathematicians, so we take the math terms as blackboxes, as much as possible.
+We would only need to provide reasoning patterns that were  sound and as much as possible unctroversial.  
+using the seeds we created by hand, chatGPT/GPT4 would, in principle, create a large collection of logically correct, guaranteed pairs.
+(I first thought a really large collection, more than  300K pairs, but Hai reminded us that we don't need training corpora anymore).
+
+What this corpus would be good for?
+My original suggestion was that we use it to improve the neuro-logical provers we have. To compare them and see if if we could build up on 
+the strengths of the different provers.
+But when Bert said we could use chat/GPT4 to explain its own reasoning, I saw a different use for the corpus: checking, when the machine is not 
+logical,  where does it go wrong.
+This is what  we were doing now, trying to see where generative AI is wrong, why/how it's wrong.
+
+For that, we need uncontroversial pairs and results. And we need to circumscribe the reasoning we want the machine to perform.
+so I was thinking no temporal nor spatial reasoning, for example. Pavel suggested the additional constraint of "no dangling determiners" such as 
+"these conditions", for example. this seems sensible.
+In any case, the seed has to be extremely good (and we need to know how good it is), and we still need a reasonably large set of pairs, 
+maybe the 10k that SICK has.
+
+Proposed next  steps:
+
+1. Nail down correct and within constraints set of seeds of approximately 300 pairs, get them frozen in github
+we prefer to keep the standard we developed of 3 pairs for each premise sentence: one E, one C and one N, to keep the corpus of pairs balanced.
+2. Make sure machine is accurate within predetermined bounds for these pairs (guesstimate something like 93% E/C pairs, 70 % N??)
+3. Run chat/GPT4 to create pairs for  the whole TAC corpus, 3k sentences, in two steps: 436  goldilock sentences first. Then 3K total sentences.
+4. create a random probe of 300 pairs of this new set of 10K pairs
+5. human check these silver 300 pairs and see if results are close to the original 300 gold ones, manually created by us.
+6. write paper about collaborative checking the logic learned by machine
+7. checking for ourselves how far away are provers from getting close to what generative AI can do.
+
