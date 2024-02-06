@@ -65,10 +65,11 @@ Machine_reasoning: Label: contradiction
 
 Reasoning: The premise specifically mentions the introduction of "mutation pairs in pseudo-triangulated
 categories," while the hypothesis incorrectly states that the introduction is about "mutation pairs in monoidal
-categories" and also mistakenly refers to "notation" rather than "notion." Given that the subjects (pseudo-triangulated vs. monoidal categories) and the context (notion vs. notation) differ significantly, the hypothesis
+categories" and also mistakenly refers to "notation" rather than "notion." Given that the subjects (pseudo-
+triangulated vs. monoidal categories) and the context (notion vs. notation) differ significantly, the hypothesis
 directly contradicts the specific content of the premise.
 
-vcvp: differs significantly does not imply contradicts
+vcvp: 'differs significantly' does not imply contradicts
 ----------
 
 6. Premise: This result unifies many previous constructions of quotient triangulated categories.
@@ -106,7 +107,18 @@ Label: neutral
 Machine_label: entailment
 Machine_reasoning: Label: entailment
 
-Reasoning: The premise specifically mentions that "magnetic monopoles form an abelian group". When the qualifier "magnetic" is removed in the hypothesis to just "monopoles", it does not change the core assertion that these entities form an abelian group. Since the defining feature (forming an abelian group) remains intact and unchallenged, the removal of "magnetic" does not negate or alter the truth of the premise. Instead, it slightly generalizes the statement but still supports the conclusion that monopoles form an abelian group. Therefore, this relationship is an entailment as the hypothesis is a true assertion under the condition set by the premise.
+Reasoning: The premise specifically mentions that "magnetic monopoles form an abelian group". When the qualifier
+"magnetic" is removed in the hypothesis to just "monopoles", it does not change the core assertion that these 
+entities form an abelian group. 
+
+what?
+
+Since the defining feature (forming an abelian group) remains intact and 
+unchallenged, the removal of "magnetic" does not negate or alter the truth of the premise. Instead, it slightly
+generalizes the statement but still supports the conclusion that monopoles form an abelian group. Therefore, this 
+relationship is an entailment as the hypothesis is a true assertion under the condition set by the premise.
+
+vcvp: only math?
 ----------
 
 9. Premise: We introduce a 3-dimensional categorical structure which we call intercategory.
@@ -115,7 +127,13 @@ Label: neutral
 Machine_label: entailment
 Machine_reasoning: Label: entailment
 
-Reasoning: The premise statement introduces a 3-dimensional categorical structure named "intercategory." The hypothesis describes an "intercategory" as a category with a 3-dimensional intercategorical structure. Essentially, the hypothesis rephrases the definition provided in the premise, thereby directly following from what is stated in the premise. Thus, the relationship between the premise and the hypothesis is one of entailment, as the hypothesis essentially restates the concept introduced in the premise with slightly different wording but equivalent meaning.
+Reasoning: The premise statement introduces a 3-dimensional categorical structure named "intercategory." The
+hypothesis describes an "intercategory" as a category with a 3-dimensional intercategorical structure. Essentially, 
+the hypothesis rephrases the definition provided in the premise, thereby directly following from what is stated in
+the premise. Thus, the relationship between the premise and the hypothesis is one of entailment, as the hypothesis
+essentially restates the concept introduced in the premise with slightly different wording but equivalent meaning.
+
+vcvp:
 ----------
 
 10. Premise: This paper extends the Day Reflection Theorem to skew monoidal categories.
@@ -124,7 +142,15 @@ Label: contradiction
 Machine_label: neutral
 Machine_reasoning: Label: neutral
 
-Reasoning: The premise indicates that the paper expands the scope of the Day Reflection Theorem to include skew monoidal categories, suggesting an addition or enhancement to existing knowledge. The hypothesis, on the other hand, suggests that the theorem is derived or deduced from the properties or existence of skew monoidal categories, which focuses on the origin or basis of the theorem rather than its extension. While both statements involve skew monoidal categories and the Day Reflection Theorem, the premise and the hypothesis focus on different aspects of the relationship between the theorem and skew monoidal categories. Therefore, the relationship is neutral, as the hypothesis neither directly contradicts nor is necessarily entailed by the premise based on the information provided.
+Reasoning: The premise indicates that the paper expands the scope of the Day Reflection Theorem to include skew
+monoidal categories, suggesting an addition or enhancement to existing knowledge. The hypothesis, on the other
+hand, suggests that the theorem is derived or deduced from the properties or existence of skew monoidal categories,
+which focuses on the origin or basis of the theorem rather than its extension. While both statements involve skew 
+monoidal categories and the Day Reflection Theorem, the premise and the hypothesis focus on different aspects of 
+the relationship between the theorem and skew monoidal categories. Therefore, the relationship is neutral, as the 
+hypothesis neither directly contradicts nor is necessarily entailed by the premise based on the information provided.
+
+vcvp: is this really a contradiction?
 ----------
 
 11. Premise: We give an explicit construction of the category Opetope of opetopes.
@@ -133,7 +159,13 @@ Label: neutral
 Machine_label: contradiction
 Machine_reasoning: Label: contradiction
 
-Reasoning: The premise states that the construction of the category of opetopes is being given explicitly in the current document, which implies that this is the point at which the category is being constructed or presented. The hypothesis suggests that the category was previously constructed by someone named Opetope, which directly contradicts the premise that the construction is being presented now for what appears to be the first time. The premise makes no mention of a prior construction or of someone named Opetope being involved in such a construction. Therefore, the relationship between the premise and the hypothesis is one of contradiction.
+Reasoning: The premise states that the construction of the category of opetopes is being given explicitly in the 
+current document, which implies that this is the point at which the category is being constructed or presented.
+The hypothesis suggests that the category was previously constructed by someone named Opetope, which directly
+contradicts the premise that the construction is being presented now for what appears to be the first time. 
+The premise makes no mention of a prior construction or of someone named Opetope being involved in such a construction. Therefore, the relationship between the premise and the hypothesis is one of contradiction.
+
+vcvp: temporal reasoning?
 ----------
 
 12. Premise: We take some first steps in providing a synthetic theory of distributions.
@@ -142,16 +174,29 @@ Label: contradiction
 Machine_label: neutral
 Machine_reasoning: Label: neutral
 
-Reasoning: The premise states that "first steps" are taken in providing a synthetic theory of distributions, but it does not specify whether these steps involve building on the synthetic theories of many others. The hypothesis suggests that the effort to provide a synthetic theory of distributions builds upon many others' synthetic theories. However, because the premise does not mention reliance on or incorporation of other theories explicitly, it leaves open the possibility that the work could be either independent or cumulative in nature. Therefore, the relationship between the premise and the hypothesis is neutral, as the premise does not confirm or deny the claim made in the hypothesis.
+Reasoning: The premise states that "first steps" are taken in providing a synthetic theory of distributions, but 
+it does not specify whether these steps involve building on the synthetic theories of many others. The hypothesis
+suggests that the effort to provide a synthetic theory of distributions builds upon many others' synthetic 
+theories. However, because the premise does not mention reliance on or incorporation of other theories explicitly,
+it leaves open the possibility that the work could be either independent or cumulative in nature. Therefore, the 
+relationship between the premise and the hypothesis is neutral, as the premise does not confirm or deny the claim 
+made in the hypothesis.
+
+vcvp:
 ----------
 
-13. Premise: We introduce various notions of partial topos, i.E: `topos without terminal object'.
+13. Premise: We introduce various notions of partial topos, i.e.: `topos without terminal object'.
 Hypothesis: We also introduce various notions of topos with a terminal object.
 Label: neutral
 Machine_label: contradiction
 Machine_reasoning: Label: contradiction
 
-Reasoning: The premise clearly states that the introduced notions of partial topos are specifically defined as a "topos without terminal object". The hypothesis directly contradicts this by suggesting that notions of topos with a terminal object are also introduced. Since having a terminal object and lacking one are mutually exclusive conditions in the context of a topos, the hypothesis contradicts the premise.
+Reasoning: The premise clearly states that the introduced notions of partial topos are specifically defined as a
+"topos without terminal object". The hypothesis directly contradicts this by suggesting that notions of topos with 
+a terminal object are also introduced. Since having a terminal object and lacking one are mutually exclusive 
+conditions in the context of a topos, the hypothesis contradicts the premise.
+
+vcvp:
 ----------
 
 14. Premise: In such a framework, the globular nerve always satisfies the Kan condition.
