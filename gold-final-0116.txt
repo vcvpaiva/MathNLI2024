@@ -85,7 +85,7 @@ Label: C
 
 ID: 18
 Premise: We use these relations to define analytic versions of Arakelov compactifications of affine arithmetic varieties.
-Hypothesis: We use these relations to define analytic versions of  compactifications of non-varieties.
+Hypothesis: We use these relations to define analytic versions of compactifications of non-varieties.
 Label: N
 
 ID: 19
