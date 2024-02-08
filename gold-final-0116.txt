@@ -509,17 +509,17 @@ Hypothesis: We do not think it will be easy to take the next steps.
 Label: N
 
 ID: 103
-Premise: We introduce various notions of partial topos, i.E: `topos without terminal object'.
+Premise: We introduce various notions of partial topos, i.e. `topos without terminal object'.
 Hypothesis: A partial topos is a topos without a terminal object.
 Label: E
 
 ID: 104
-Premise: We introduce various notions of partial topos, i.E: `topos without terminal object'.
+Premise: We introduce various notions of partial topos, i.e. `topos without terminal object'.
 Hypothesis: There is only one notion of partial topos.
 Label: C
 
 ID: 105
-Premise: We introduce various notions of partial topos, i.E: `topos without terminal object'.
+Premise: We introduce various notions of partial topos, i.e. `topos without terminal object'.
 Hypothesis: We also introduce various notions of topos with a terminal object.
 Label: N
 
