@@ -25,7 +25,7 @@ Label: C
 
 ID: 6
 Premise: A notion of central importance in categorical topology is that of topological functor.
-Hypothesis: There are many  notions of central importance in categorical topology.
+Hypothesis: There are many notions of central importance in categorical topology.
 Label: N
 
 ID: 7
