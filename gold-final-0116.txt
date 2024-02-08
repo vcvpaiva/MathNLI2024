@@ -100,7 +100,7 @@ Label: C
 
 ID: 21
 Premise: These functors are used in the paper only to prove Corollary~8.3.
-Hypothesis: These natural transformations are used in the paper  to prove Corollary~8.5.
+Hypothesis: These natural transformations are used in the paper to prove Corollary~8.5.
 Label: N
 
 ID: 22
