@@ -152,6 +152,15 @@ relationship is an entailment as the hypothesis is a true assertion under the co
 
 vcvp: only math?
 pk: 8: Is the hypothesis ambiguous between the universal and existential reading? Is there a reading like "Using these ideas, we also prove that some monopoles form an abelian group"? If yes, then I think GPT is right.
+LM: ChatGPT seems to suggest that it's okay to drop important adjectives!  
+I thought that it could be saying that we have
+
+  Using these ideas, we also prove that SOME magnetic monopoles form an abelian group.
+  Hypothesis: Using these ideas, we also prove that SOME monopoles form an abelian group.
+  
+This WOULD follow.  But it's not how any mathematician would read this.
+And it's also not what the explanation suggests.   The explanation says 'the removal of "magnetic" does not negate or alter the truth of the premise. Instead, it slightly
+generalizes the statement'.  That's consistent with the universal reading of the monopoles and magnetic monopoles.  Then the error is to assume that a generalization of a given sentence follows from that sentence.  Of course this is wrong in general.
 ----------
 
 9. Premise: We introduce a 3-dimensional categorical structure which we call intercategory.
@@ -168,6 +177,7 @@ essentially restates the concept introduced in the premise with slightly differe
 
 vcvp:
 pk:  GPT is being sloppy with its reasoning. The premise doesn't mention that an intercategory is a category (but GPT is probably assuming this).
+LM: this one is 'my bad'.  I think ChatGPT is correct, and its reasoning is on the right track.    The hypothesis talks about '3-dimensional intercategorical' structure and the premise about '3-dimensional categorical' structure.  In fact, the Hypothesis is kind of tautological.  It would be like 'A circle is a curve making a circular path'.  So I think ChatGPT basically got this one -- and its reasoning is not so bad.  
 ----------
 
 10. Premise: This paper extends the Day Reflection Theorem to skew monoidal categories.
@@ -186,6 +196,9 @@ hypothesis neither directly contradicts nor is necessarily entailed by the premi
 
 vcvp: is this really a contradiction?
 pk: I think GPT is right, and this is N
+LM: It's kind of non-sensical to derive a result from a category.
+I still think it's a contradiction.  But I could imagine some results being both derived from and extending to the same other results.  Is that why you two think it's N??
+
 ----------
 
 11. Premise: We give an explicit construction of the category Opetope of opetopes.
@@ -202,6 +215,8 @@ The premise makes no mention of a prior construction or of someone named Opetope
 
 vcvp: temporal reasoning?
 pk: similar to 7, some pragmatic assumption (but in this case, this pragmatic assumption has to do with temporality)
+LM: To me, the prior construction mentioned in the Hypothesis could be OK-but-not-really-explicit.  That is, I focus on the word 'explicit'.   The category could have been constructed before by using some high-powered tool that shows the existence but not in an explicit way.   If I'm right here, this is the reason for the Neutral label.  Now you two might think that I'm leaning too much on category theory experience.
+
 ----------
 
 12. Premise: We take some first steps in providing a synthetic theory of distributions.
@@ -220,6 +235,8 @@ made in the hypothesis.
 
 vcvp:
 pk: I think GPT is right: we may be the first to be building "synthetic theory of distributions", and our first steps may involve other kinds of "synthetic theories" which were developed by "many others" earlier
+LM:  If the Premise says 'we take the first steps', it doesn't mean "we take the first steps by building on others' work".  It contradicts that! (But I see that Pavel totally disagrees here, so I should think again.)
+
 ----------
 
 13. Premise: We introduce various notions of partial topos, i.e.: `topos without terminal object'.
@@ -235,6 +252,13 @@ conditions in the context of a topos, the hypothesis contradicts the premise.
 
 vcvp:
 pk: "we do A" does not contradict "we do B"; similar to 5
+LM: A little like the problematic examples above, saying BOTH
+
+    We do X
+    We do Y
+    
+doesn't give a contradiction.
+
 ----------
 
 14. Premise: In such a framework, the globular nerve always satisfies the Kan condition.
@@ -246,6 +270,7 @@ Machine_reasoning: Label: contradiction
 Reasoning: The premise asserts that "the globular nerve always satisfies the Kan condition" implies that under this framework, there are no special prerequisites for the globular nerve to satisfy the Kan condition – it is a general property. Contrarily, the hypothesis posits that "the globular nerve only satisfies the Kan condition under very special assumptions," suggesting that its satisfaction is dependent on specific, probably uncommon conditions. These two statements are directly in conflict with each other, as the premise indicates a universal truth within the framework, while the hypothesis implies a conditional or restricted truth. Therefore, the relationship between the premise and hypothesis is best described as a contradiction.
 
 pk: "A is true only when B is true" does not contradict "In framework C, A is always true"
+LM: I think that the first sentence in the Reasoning is off.   The premise doesn't assert what ChatGPT says, it asserts it it IN SUCH A FRAMEWORK.  The next point, about the 'very special assumptions' is right.  But the end of the Reasoning is a curious mistake.  It says "The premise indicates a universal truth within the framework, while the hypothesis implies a conditional or restricted truth."  This is correct -- but it's not a contradiction!
 ----------
 
 15. Premise: We give a categorical discussion of such results.
@@ -257,6 +282,8 @@ Machine_reasoning: Label: neutral
 Reasoning: The premise mentions a discussion of results from a 'categorical' viewpoint, which implies a focus on category theory or related concepts. The hypothesis shifts this focus to a discussion that is based entirely on concepts from partial differential equations. The shift from a categorical discussion to one based entirely on partial differential equations means that we cannot directly infer that one necessarily includes the other or vice versa. Therefore, the relationship between these two statements is neutral, as the premise does not give us enough information to conclude that the hypothesis must be true, false, or is directly entailed by the premise.
 
 pk: If we're treating concepts as black boxes, then I think GPT is right, because without any external knowledge it's impossible to know whether partial differential equations have anything to do with "categorical discussion"
+LM: I think that ChatGPT and Pavel have a point.  My intent was to hing that concepts from PDE should be conceptually far from category theory.  That way, we get a contradiction.
+I'm not sure how 'black-box-y' we want to be in this.
 ----------
 
 16. Premise: In many applications of quasigroups isotopies and homotopies are more important than isomorphisms and homomorphisms.
