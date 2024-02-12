@@ -307,6 +307,8 @@ Machine_reasoning: Label: neutral
 Reasoning: The premise discusses considering the problem of relating a factorization system to a pointed endofunctor, which implies active research or contemplation on this specific relationship. However, the hypothesis makes a general statement about the ease of relating a factorization system to "anything" without problems, which neither directly contradicts nor follows from the premise’s specific investigation into a relationship with a pointed endofunctor. Since the hypothesis generalizes beyond what is stated in the premise, making the relationship between the two statements neutral.
 
 pk: I think the word "problem" is used in different senses in the premise and hypothesis, and if this is so, then GPT is right. In the premise, "problem" means "question", while in the hypothesis, "problem" means "a situation that causes difficulties"
+LM: After reading Pavel's point, I think I buy some of ChatGPT's reasoning.
+I buy the conclusion (Neutral), but I don't think that "the hypothesis generalizes beyond what is stated in the premise".  So I guess I don't think it's using the word 'generalizes' the way I would.  See also 23.
 ----------
 
 18. Premise: The problem of relating a factorization system to a pointed endofunctor is considered.
@@ -318,6 +320,7 @@ Machine_reasoning: Label: contradiction
 Reasoning: The premise is discussing the consideration or investigation into how a factorization system can be related to a pointed endofunctor. This implies that there is a possibility or an attempt to find a relationship between the two. The hypothesis directly contradicts this by stating that a pointed endofunctor cannot be related to a factorization system, suggesting that it is impossible to establish such a relationship. Therefore, the relationship between the premise and the hypothesis is a contradiction because the hypothesis directly opposes the possibility presented in the premise.
 
 pk: "A cannot be done" does not contradict "we consider the problem of A"
+LM: Just because something is impossible doesn't mean that the problem of doing it can't be "considered" (raised).
 ----------
 
 19. Premise: This paper proposes a recursive definition of V-n-categories and their morphisms.
@@ -329,6 +332,7 @@ Machine_reasoning: Label: entailment
 Reasoning: The premise talks about proposing a recursive definition of V-n-categories and their morphisms, where "V-n-categories" refers to a specific form of categories, possibly including various dimensions or levels of complexity (suggested by the "n" in "V-n-categories"). Given that this specific type is a subset or a specialized form within the larger set of "V-categories", the proposal of such a definition naturally entails the proposition of a definition for V-categories in a broader sense. The specifics of "recursive" and involving "morphisms" do not detract from the entailment since proposing a definition for a more specified category (V-n-categories) inherently includes proposing a definition for the broader category (V-categories) which it falls under.
 
 pk: this is similar to 9, GPT is assuming that if we define V-n-cats, then we will have also defined V-cats since it's a more general concept
+LM: I think the 'n' is very much at issue, as is the word 'propose'.  The way I read things, the paper proposes the definitions related to V-n-categories.  But maybe the definition for V-categories (without the n) were already around.  So the paper need not propose them!  That's why I think this one is Neutral.
 
 ----------
 
@@ -341,6 +345,8 @@ Machine_reasoning: Label: entailment
 Reasoning: The premise explicitly states that the required simplicial approximation results for simplicial sets and their proofs are given in full. This directly implies that approximation results for simplicial sets and their proofs are provided, matching the statement made in the hypothesis. Since all elements mentioned in the hypothesis are covered by the premise, the relationship is one of entailment.
 
 pk: Is the hypothesis even a grammatical sentence? At least I've never heard the phrase "results for", where "result" is used as a verb. 
+LM: The H is not a full sentence, so this looks like NONSENSE to me.
+
 ----------
 
 21. Premise: Subdivision behaves like a covering in the context of the techniques displayed here.
@@ -352,6 +358,7 @@ Machine_reasoning: Label: contradiction
 Reasoning: The premise states that subdivision behaves similarly to a covering in the specific context of the techniques discussed, which implies a positive or compatible interaction between subdivision and the techniques. The hypothesis, on the other hand, claims that subdivision and other techniques do not work well together, which directly contradicts the premise's implication of positive or effective integration of subdivision with the techniques displayed.
 
 pk: "A and C do not mix well" does not contradict "A behaves like B in context C" 
+LM: This is a kind of hallucination, guessing that the premise implied a positive value of something.  
 ----------
 
 22. Premise: This paper introduces the notions of vector field and flow on a general differentiable stack.
@@ -363,6 +370,7 @@ Machine_reasoning: Label: entailment
 Reasoning: The premise indicates that the paper introduces (hence, defines or explains for the first time within its context) the notions of vector field and flow on a "general differentiable stack." The use of the term "general" implies an expansion or broadening of the notions of vector field and flow beyond more specific or previously understood contexts. This aligns with the hypothesis, which states that the paper "generalizes the notions of vector field and flow on a stack." Therefore, since the premise involves an introduction that inherently broadens these concepts, and the hypothesis describes this process as a generalization, the relationship between them is one of entailment; the premise's information warrants the conclusion drawn in the hypothesis.
 
 pk: Similar to 9, but more severe. GPT is assuming that any "general A" is also "B", where A and B are distinct. 
+LM: See my discussion of 2.  The paper could both introduce and generalize something.
 ----------
 
 23. Premise: Both of them generalise the concept of algebra on a monad T.
@@ -374,6 +382,7 @@ Machine_reasoning: Label: neutral
 Reasoning: The premise states that both subjects generalize the concept of algebra on a monad T, which implies they expand or extend the concept. The hypothesis suggests that both subjects are special cases of a monadic algebra, implying they are specific instances within the broader category of monadic algebra. The transition from generalizing a concept (making it broader) to being a special case (narrowing down) of that broader concept shows that the relationship between the premise and the hypothesis is not directly aligned. There's no explicit entailment because being a generalization does not necessarily mean they can't also be special cases, but there's not enough information to conclude that they indeed are special cases as described by the hypothesis. Therefore, the relationship is neutral: the premise neither directly supports nor contradicts the hypothesis.
 
 pk: I think GPT is right if we're treating concepts as black boxes.
+LM: I take it that 'monadic algebra' and 'algebra on a monad' are the same.  Then I would think that 'generalization' and 'special case' are contradictory.   The 'reasoning' by ChatGPT says neutral about this, and I disagree.
 ----------
 
 24. Premise: We define eventually cyclic Boolean flows and the eventually cyclic spectrum of a Boolean flow.
@@ -385,6 +394,7 @@ Machine_reasoning: Label: entailment
 Reasoning: The premise involves defining "eventually cyclic Boolean flows" and "the eventually cyclic spectrum of a Boolean flow" together. This implies a relationship between the two concepts, specifically that the definition of one (the spectrum) likely depends on or incorporates the definition of the other (the flows). Thus, the hypothesis that the definition of the eventually cyclic spectrum of a Boolean flow uses the definition of eventually cyclic Boolean flows logically follows from the premise, making this an entailment.
 
 pk: GPT makes up non-existing relationships.
+LM: this is reading too much in!
 ----------
 
 25. Premise: The axioms resemble those for monoidal Abelian categories with the addition of an involutive functor.
