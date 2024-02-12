@@ -406,6 +406,13 @@ Machine_reasoning: Label: contradiction
 Reasoning: The premise explicitly states that the axioms in question resemble those for monoidal Abelian categories but include the addition of an involutive functor. This means that while there are similarities to the axioms of monoidal Abelian categories, there is a critical addition—an involutive functor—that distinguishes them. The hypothesis, however, claims that the axioms are exactly those of monoidal Abelian categories, ignoring the specified addition. Therefore, the hypothesis contradicts the premise, as it overlooks the important detail that differentiates these axioms from those of standard monoidal Abelian categories.
 
 pk: The premise strongly suggests that the axiom of an involutive functor is not part of the axioms for monoidal abelian cats, and GPT takes this pragmatic intuition and attributes it to the semantics of the sentence. But this is a hard case even for humans, I think.
+LM: I think that ChatGPT could be right here.  I focus on 'resemble' in the Premise, and 'are' in the Hypothesis.  Even setting aside the involutive functor, if we say 
+
+X resembles Y
+X is Y
+
+I think most people would take the first as implicating the negation of the second.
+(I know that in mathematics we might say that everything 'resembles' itself, but this is not the everyday usage.)
 ----------
 
 26. Premise: A comparison to other approaches will be made in the introduction.
@@ -417,6 +424,8 @@ Machine_reasoning: Label: contradiction
 Reasoning: The premise indicates that a "comparison to other approaches" will be included in the introduction, suggesting that an analysis or evaluation of these other methods in relation to the one being discussed will occur. The hypothesis misinterprets the premise by stating that "other approaches will be made in the introduction", implying that the introduction will create or present new approaches, which contradicts the premise's assertion of making a comparison rather than presenting new approaches themselves.
 
 pk: "Bs will be made" does not contradict "comparison of Bs will be made"
+LM: The introduction could do both 'compare' and 'make' other approaches.
+This is basically the same issue that we saw several times already.
 ----------
 
 27. Premise: In the general case, no such meaningful partition could exist.
@@ -428,6 +437,7 @@ Machine_reasoning: Label: entailment
 Reasoning: The premise states that in the general case, no meaningful partition could exist. This implies that outside the general case, which can be interpreted as in "special cases," a meaningful partition could indeed exist. Hence, the hypothesis that in special cases the partition is very meaningful directly follows from the premise's implication about the exclusivity of the general case situation, making the relationship between the premise and the hypothesis one of entailment.
 
 pk: "In the general case, B doesn't exist" does not entail "in particular cases, B exists"
+LM: I think that it doesn't understand 'in general' correctly.   If we say 'in general' in mathematics, we don't go on to say "outside the general case" . . . That's one problem.  Even worse is the 'reasoning' that seems to suggest Entailment here. It looks like ChatGPT is suggesting Gricean implicature in its second sentence.
 ----------
 
 28. Premise: The present paper starts by supplying this last clause with a precise meaning.
@@ -439,6 +449,9 @@ Machine_reasoning: Label: neutral
 Reasoning: The premise mentions giving the last clause a "precise meaning," which suggests a formal approach to defining or explaining it. The hypothesis suggests that the paper treats the clause "in an informal but meaningful way." Since the premise emphasizes precision (which is typically associated with formality) and the hypothesis suggests informality, there is no direct contradiction, but neither is there direct entailment because the two descriptions do not necessarily align in method. Thus, the relationship is neutral, as one cannot definitively conclude from the premise whether the paper's treatment is formal or informal—only that it aims to provide a precise meaning.
 
 pk:Should it indeed be N? (And I don't like this hypothesis)
+LM: I see "Since the premise emphasizes precision (which is typically associated with formality) and the hypothesis suggests informality. . ."
+But I would go on to say Contradiction.  Why does it say "there is no direct contradiction"??
+
 ----------
 
 29. Premise: Now coproduct preservation yields an approach to product measures.
@@ -450,6 +463,7 @@ Machine_reasoning: Label: contradiction
 Reasoning: The premise states that "coproduct preservation yields an approach to product measures," which implies a directional causal or procedural relationship where coproduct preservation leads to insights or methods related to product measures. The hypothesis inverses this relationship, suggesting "the preservation of product measures yields coproduct preservation." This reversal directly contradicts the causal direction indicated in the premise, establishing that one process leads to the other and not vice versa.
 
 pk: "A yields B" does not contradict "C yields D"; similar to 2
+LM: I think here what we have is that 'A yields B' doesn't contradict 'C yields A'.
 
 ----------
 
@@ -462,6 +476,7 @@ Machine_reasoning: Label: neutral
 Reasoning: The premise states that two ideas were combined, including "cartesian differential categories, and restriction categories," but it does not provide any information regarding the novelty or age of "restriction categories." The hypothesis makes a direct statement about the novelty ("The idea of restriction categories is not old") which cannot be inferred or contradicted based on the information given in the premise. The premise's focus is on the combination of two ideas rather than their individual histories or how recently they were introduced. Therefore, the relationship between the premise and the hypothesis is neutral because the premise does not provide enough information to affirm or deny the hypothesis.
 
 pk: GPT just missed some information in the premise.
+LM: ChatGPT evidently didn't read 'recent' in the Premise.
 ----------
 
 31. Premise: The category of Set-valued presheaves on a small category B is a topos.
@@ -473,6 +488,7 @@ Machine_reasoning: Label: neutral
 Reasoning: The given premise specifies that the category of Set-valued presheaves on a small category B is a topos. However, the hypothesis changes the specific category from B to C. The mathematical property mentioned (being a topos) could hold for categories B and C alike, but the change in the specific category from B to C means that the premise doesn't directly assert or deny the property for category C. Therefore, there is not enough information to conclude that the premise entails or contradicts the hypothesis, making the relationship neutral.
 
 pk: GPT doesn't understand that B and C are not referential. (But in general, I don't like this premise, it's just a poor mathematical sentence: B plays no role here and should be removed.)
+LM: Bad handling of variables.  We could probably ask ChatGPT questions to test its understanding of bound and free variables in mathematical English.
 ----------
 
 32. Premise: The category of Set-valued presheaves on a small category B is a topos.
@@ -484,6 +500,7 @@ Machine_reasoning: Label: neutral
 Reasoning: The premise states a fact about the category of Set-valued presheaves on a specific small category B, identifying it as a topos. The hypothesis introduces the possibility of another small category C for which the category of Set-valued presheaves may not be a topos. The existence of a topos structure in the case of category B does not preclude the possibility of different structures or properties for presheave categories on other small categories. Hence, the premise and the hypothesis do not contradict each other but neither does the premise entail the hypothesis, making the relationship neutral.
 
 pk: see 31
+LM: Again it took B as a specific category, and a reader would take B to be a bound universally-quantified variable.
 ----------
 
 33. Premise: Vertical arrows give rise to modules between representables.
@@ -495,6 +512,7 @@ Machine_reasoning: Label: contradiction
 Reasoning: The premise specifically states that "vertical arrows" are responsible for giving rise to modules between representables, implying a particular directionality or orientation in the process. The hypothesis claims that "horizontal arrows" serve this role, directly opposing the premise's assertion regarding the orientation of the arrows involved. Given that horizontal and vertical are mutually exclusive orientations (assuming a standard geometric or diagrammatic context where they are perpendicular), asserting one as responsible directly contradicts the claim about the other. Therefore, the relationship between the premise and the hypothesis is a contradiction.
 
 pk: "A yields B" does not contradict "C yields B"; similar to 4
+LM: another alignment error.
 ----------
 
 34. Premise: Various concerns suggest looking for internal co-categories in categories with strong logical structure.
@@ -506,5 +524,6 @@ Machine_reasoning: Label: entailment
 Reasoning: The premise mentions that "various concerns suggest looking for internal co-categories in categories with strong logical structure." The term "internal co-categories" is the focus here, which directly connects to the hypothesis stating, "We suggest looking for internal co-categories." The additional specification "in categories with strong logical structure" in the premise doesn't contradict but merely provides context to the suggestion, making the hypothesis a more general statement that follows logically from the premise. Therefore, the relationship is one of entailment, as the hypothesis encapsulates a core action or recommendation present in the premise without adding or altering the fundamental suggestion.
 
 pk: There might be the same problem as in 8 with the bare plural. If it can be interpreted existentially, then I think GPT might be right (although there is still the question of whether "various concerns suggest ..." implies "we suggest...")
+LM: I can see that this is one that reasonable people will disagree on. The way I see things, this one hinges on whether the 'suggest' is taken universally or not.  In the premise, I think it is naturally interpreted universally.  But then if we read the hypothesis the same way, we should not have an entailment.  ChatGPT says 'The additional specification "in categories with strong logical structure" in the premise doesn't contradict but merely provides context to the suggestion,' I agree with this.  But then it loses me when it goes on to say 'making the hypothesis a more general statement that follows logically from the premise.'  I would think since what is suggested is indeed more general, it does NOT follow from the premise.  If I said, 'I suggest that you attend [all] concerts given by famous musicians', it does not imply 'I suggest that you attend [all] concerts'.
 ----------
 
