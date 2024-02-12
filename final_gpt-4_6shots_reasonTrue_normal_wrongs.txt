@@ -15,6 +15,14 @@ them. If one is true, the other cannot be true under the given conditions.
 
 vcvp: traditional human error? A->B is not the same as A<->B
 pk: "if not A then B" does not contradict "if A then B" 
+LM: 1:  ChatGPT says
+
+    If X, then Y
+    
+contradicts
+
+    If NOT X, then Y
+
 ----------
 
 2. Premise: We use these relations to define analytic versions of Arakelov compactifications of affine arithmetic varieties.
@@ -30,6 +38,13 @@ which directly contradicts the scope outlined in the premise. Since the premise 
 
 pk: "we use A to do B" does not contradict "we use C to do D"
 vcvp: in this case "we use A to do B" does not contradict "we use A to do D"
+LM: This is a similar problem to 1, actually.  ChatGPT basically aligns the Premise and Hypothesis, and if there is a discrepancy anyplace, it jumps on this and says 'Contradiction'.  In this case, it aligns as follows: 
+
+We . . . . to define . . . X
+We . . . . to define . . . Y
+
+Since X and Y were different (they are even opposing concepts), it said C.
+But a mathematical paper could do BOTH, and so this is why it should be N.
 ----------
 
 3. Premise: These functors are used in the paper only to prove Corollary~8.3.
@@ -46,6 +61,7 @@ differ (8.3 vs. 8.5), leading to a direct contradiction.
 
 vcvp: what?
 pk: "A is used to prove B" does not contradict "C is used to prove D"
+LM: ChatGPT seems to be thinking that 'These functors' contradicts 'These natural transformations'.  I think most people mathematicians would rather think that the two occurrences of 'these' refer to different things. If I'm right, then what we have is a failure to accommodate the two "these"s.  If I'm wrong -- if most people would try to have a coreference between the functors and the natural transformations -- then this one would be non-sensical rather than neutral, I think.
 ----------
 
 4. Premise: Here ``balanced'' can be omitted if the category is additive.
@@ -63,6 +79,7 @@ premise, the hypothesis's condition cannot be true.
 
 pk: "A can be done if B" does not contradict "A can be done if C"
 vcvp: agree
+LM: I also agree with this point.  It's again jumping to Contradiction based on a mis-alignment, and then justifying that in its explanation.
 ----------
 
 5. Premise: We introduce the notion of mutation pairs in pseudo-triangulated categories.
@@ -79,6 +96,7 @@ directly contradicts the specific content of the premise.
 
 vcvp: 'differs significantly' does not imply contradicts
 pk: "we do A" does not contradict "we do B" 
+LM: agree with pk.   A paper can do both A and B.
 ----------
 
 6. Premise: This result unifies many previous constructions of quotient triangulated categories.
@@ -95,6 +113,7 @@ oppose each other, leading to the judgment of contradiction.
 
 vcvp: what?
 pk: GPT mistakenly thinks that "most" contradicts to "all"
+LM: ChatGPT seems to think that 'many' CONTRADICTS 'all'. See also 16.
 ----------
 
 7. Premise: The syntactic architecture of such interconnections is encoded using the visual language of wiring diagrams.
@@ -111,6 +130,7 @@ methods for the syntactic structure of such interconnections, so declaring it th
 contradiction.
 
 pk: "A can be done exclusively in way B" does not contradict "A can be done in way B" (some pragmatic assumption)
+LM: agreed, and Pavel is more elequent here than my point.
 ----------
 
 8. Premise: Using these ideas, we also prove that magnetic monopoles form an abelian group.
@@ -248,6 +268,7 @@ Machine_reasoning: Label: contradiction
 Reasoning: The premise specifies that in "many applications" of quasigroups, isotopies and homotopies are more important than isomorphisms and homomorphisms. This statement is not universal and implies that there are some applications where this may not be the case. The hypothesis makes a stronger, universal claim that in "all applications" of quasigroups, isotopies are more important than isomorphisms. By claiming this is true for all applications without acknowledging the cases where it might not hold, the hypothesis directly contradicts the premise's indication that the importance is context-specific ("many" vs. "all").
 
 pk: pretty much the same as 6 (maybe a bit more complex)
+LM: as in 6, ChatGPT seems to think that 'many' CONTRADICTS 'all'. 
 ----------
 
 17. Premise: The problem of relating a factorization system to a pointed endofunctor is considered.
