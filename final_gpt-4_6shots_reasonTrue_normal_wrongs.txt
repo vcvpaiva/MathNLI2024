@@ -130,7 +130,7 @@ methods for the syntactic structure of such interconnections, so declaring it th
 contradiction.
 
 pk: "A can be done exclusively in way B" does not contradict "A can be done in way B" (some pragmatic assumption)
-LM: agreed, and Pavel is more elequent here than my point.
+LM: agreed, and Pavel is more eloquent here than my point.
 ----------
 
 8. Premise: Using these ideas, we also prove that magnetic monopoles form an abelian group.
@@ -151,7 +151,7 @@ generalizes the statement but still supports the conclusion that monopoles form 
 relationship is an entailment as the hypothesis is a true assertion under the condition set by the premise.
 
 vcvp: only math?
-pk: 8: Is the hypothesis ambiguous between the universal and existential reading? Is there a reading like "Using these ideas, we also prove that some monopoles form an abelian group"? If yes, then I think GPT is right.
+pk:  Is the hypothesis ambiguous between the universal and existential reading? Is there a reading like "Using these ideas, we also prove that some monopoles form an abelian group"? If yes, then I think GPT is right.
 LM: ChatGPT seems to suggest that it's okay to drop important adjectives!  
 I thought that it could be saying that we have
 
@@ -175,7 +175,7 @@ the hypothesis rephrases the definition provided in the premise, thereby directl
 the premise. Thus, the relationship between the premise and the hypothesis is one of entailment, as the hypothesis
 essentially restates the concept introduced in the premise with slightly different wording but equivalent meaning.
 
-vcvp:
+vcvp: if GPT4 is right we need a NEW neutral!
 pk:  GPT is being sloppy with its reasoning. The premise doesn't mention that an intercategory is a category (but GPT is probably assuming this).
 LM: this one is 'my bad'.  I think ChatGPT is correct, and its reasoning is on the right track.    The hypothesis talks about '3-dimensional intercategorical' structure and the premise about '3-dimensional categorical' structure.  In fact, the Hypothesis is kind of tautological.  It would be like 'A circle is a curve making a circular path'.  So I think ChatGPT basically got this one -- and its reasoning is not so bad.  
 ----------
