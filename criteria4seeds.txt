@@ -1,0 +1,8 @@
+Criteria for our NLI seed pairs
+  (suggested by Valeria)
+  1. Both premisse and hypothesis should be full, grammatical sentences with no typos.
+  2. We aim for uncontroversial inference, as much as possible.
+  3. We treat mathematical concepts as much as possible as black-boxes. (Inference shouldn't depend on mathematical knowledge.)
+  4. We shouldn't have ambiguity of words, e.g. "stack" as a math concept mixed up with "stack of papers"
+  5. We should not have "dangling references" or coreferences, we aim for simple semantics.
+  6. We should not deal with temporal or spatial reasoning.
