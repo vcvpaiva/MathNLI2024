@@ -198,6 +198,7 @@ vcvp: is this really a contradiction?
 pk: I think GPT is right, and this is N
 LM: It's kind of non-sensical to derive a result from a category.
 I still think it's a contradiction.  But I could imagine some results being both derived from and extending to the same other results.  Is that why you two think it's N??
+vcvp: yes, I think there are results that can both be derived from and extended to the same X.
 
 ----------
 
@@ -216,7 +217,7 @@ The premise makes no mention of a prior construction or of someone named Opetope
 vcvp: temporal reasoning?
 pk: similar to 7, some pragmatic assumption (but in this case, this pragmatic assumption has to do with temporality)
 LM: To me, the prior construction mentioned in the Hypothesis could be OK-but-not-really-explicit.  That is, I focus on the word 'explicit'.   The category could have been constructed before by using some high-powered tool that shows the existence but not in an explicit way.   If I'm right here, this is the reason for the Neutral label.  Now you two might think that I'm leaning too much on category theory experience.
-
+vcvp: I thought we had banned temporal reasoning from this dataset.
 ----------
 
 12. Premise: We take some first steps in providing a synthetic theory of distributions.
@@ -233,7 +234,7 @@ it leaves open the possibility that the work could be either independent or cumu
 relationship between the premise and the hypothesis is neutral, as the premise does not confirm or deny the claim 
 made in the hypothesis.
 
-vcvp:
+vcvp: again I think we had organized *not* to do temporal phenomena, these are more complicated reasoning than should appear in this set.
 pk: I think GPT is right: we may be the first to be building "synthetic theory of distributions", and our first steps may involve other kinds of "synthetic theories" which were developed by "many others" earlier
 LM:  If the Premise says 'we take the first steps', it doesn't mean "we take the first steps by building on others' work".  It contradicts that! (But I see that Pavel totally disagrees here, so I should think again.)
 
@@ -250,7 +251,7 @@ Reasoning: The premise clearly states that the introduced notions of partial top
 a terminal object are also introduced. Since having a terminal object and lacking one are mutually exclusive 
 conditions in the context of a topos, the hypothesis contradicts the premise.
 
-vcvp:
+vcvp: agreed that We do X, We do Y does not give you a contradiction
 pk: "we do A" does not contradict "we do B"; similar to 5
 LM: A little like the problematic examples above, saying BOTH
 
@@ -270,11 +271,13 @@ Machine_reasoning: Label: contradiction
 Reasoning: The premise asserts that "the globular nerve always satisfies the Kan condition" implies that under this framework, there are no special prerequisites for the globular nerve to satisfy the Kan condition – it is a general property. Contrarily, the hypothesis posits that "the globular nerve only satisfies the Kan condition under very special assumptions," suggesting that its satisfaction is dependent on specific, probably uncommon conditions. These two statements are directly in conflict with each other, as the premise indicates a universal truth within the framework, while the hypothesis implies a conditional or restricted truth. Therefore, the relationship between the premise and hypothesis is best described as a contradiction.
 
 pk: "A is true only when B is true" does not contradict "In framework C, A is always true"
-LM: I think that the first sentence in the Reasoning is off.   The premise doesn't assert what ChatGPT says, it asserts it it IN SUCH A FRAMEWORK.  The next point, about the 'very special assumptions' is right.  But the end of the Reasoning is a curious mistake.  It says "The premise indicates a universal truth within the framework, while the hypothesis implies a conditional or restricted truth."  This is correct -- but it's not a contradiction!
+LM: I think that the first sentence in the Reasoning is off.   The premise doesn't assert what ChatGPT says, it asserts it is IN SUCH A FRAMEWORK.  The next point, about the 'very special assumptions' is right.  But the end of the Reasoning is a curious mistake.  It says "The premise indicates a universal truth within the framework, while the hypothesis implies a conditional or restricted truth."  This is correct -- but it's not a contradiction!
+vcvp: P: In X, always Y satisfies C.
+      H: Y only satisfies C in very special conditions D.
 ----------
 
 15. Premise: We give a categorical discussion of such results.
-Hypothesis: We  give a discussion of such results using concepts drawn entirely from partial differential equations..
+Hypothesis: We  give a discussion of such results using concepts drawn entirely from partial differential equations.
 Label: contradiction
 Machine_label: neutral
 Machine_reasoning: Label: neutral
@@ -284,6 +287,7 @@ Reasoning: The premise mentions a discussion of results from a 'categorical' vie
 pk: If we're treating concepts as black boxes, then I think GPT is right, because without any external knowledge it's impossible to know whether partial differential equations have anything to do with "categorical discussion"
 LM: I think that ChatGPT and Pavel have a point.  My intent was to hing that concepts from PDE should be conceptually far from category theory.  That way, we get a contradiction.
 I'm not sure how 'black-box-y' we want to be in this.
+vcvp: agree that maybe we're using CT knowledge. let's change it.
 ----------
 
 16. Premise: In many applications of quasigroups isotopies and homotopies are more important than isomorphisms and homomorphisms.
@@ -296,6 +300,7 @@ Reasoning: The premise specifies that in "many applications" of quasigroups, iso
 
 pk: pretty much the same as 6 (maybe a bit more complex)
 LM: as in 6, ChatGPT seems to think that 'many' CONTRADICTS 'all'. 
+vcvp: agreed.
 ----------
 
 17. Premise: The problem of relating a factorization system to a pointed endofunctor is considered.
@@ -309,6 +314,7 @@ Reasoning: The premise discusses considering the problem of relating a factoriza
 pk: I think the word "problem" is used in different senses in the premise and hypothesis, and if this is so, then GPT is right. In the premise, "problem" means "question", while in the hypothesis, "problem" means "a situation that causes difficulties"
 LM: After reading Pavel's point, I think I buy some of ChatGPT's reasoning.
 I buy the conclusion (Neutral), but I don't think that "the hypothesis generalizes beyond what is stated in the premise".  So I guess I don't think it's using the word 'generalizes' the way I would.  See also 23.
+vcvp: I agree with Pavel that the two problems are unrelated, so cannot be in contradiction.
 ----------
 
 18. Premise: The problem of relating a factorization system to a pointed endofunctor is considered.
@@ -321,6 +327,7 @@ Reasoning: The premise is discussing the consideration or investigation into how
 
 pk: "A cannot be done" does not contradict "we consider the problem of A"
 LM: Just because something is impossible doesn't mean that the problem of doing it can't be "considered" (raised).
+vcvp: agree that GPT4 is wrong, this is not a contradiction
 ----------
 
 19. Premise: This paper proposes a recursive definition of V-n-categories and their morphisms.
@@ -333,6 +340,7 @@ Reasoning: The premise talks about proposing a recursive definition of V-n-categ
 
 pk: this is similar to 9, GPT is assuming that if we define V-n-cats, then we will have also defined V-cats since it's a more general concept
 LM: I think the 'n' is very much at issue, as is the word 'propose'.  The way I read things, the paper proposes the definitions related to V-n-categories.  But maybe the definition for V-categories (without the n) were already around.  So the paper need not propose them!  That's why I think this one is Neutral.
+vcvp: not entailment.
 
 ----------
 
@@ -346,6 +354,7 @@ Reasoning: The premise explicitly states that the required simplicial approximat
 
 pk: Is the hypothesis even a grammatical sentence? At least I've never heard the phrase "results for", where "result" is used as a verb. 
 LM: The H is not a full sentence, so this looks like NONSENSE to me.
+vcvp: need another hypothesis then
 
 ----------
 
@@ -358,7 +367,8 @@ Machine_reasoning: Label: contradiction
 Reasoning: The premise states that subdivision behaves similarly to a covering in the specific context of the techniques discussed, which implies a positive or compatible interaction between subdivision and the techniques. The hypothesis, on the other hand, claims that subdivision and other techniques do not work well together, which directly contradicts the premise's implication of positive or effective integration of subdivision with the techniques displayed.
 
 pk: "A and C do not mix well" does not contradict "A behaves like B in context C" 
-LM: This is a kind of hallucination, guessing that the premise implied a positive value of something.  
+LM: This is a kind of hallucination, guessing that the premise implied a positive value of something. 
+vcvp: agreeing with both 
 ----------
 
 22. Premise: This paper introduces the notions of vector field and flow on a general differentiable stack.
@@ -371,6 +381,7 @@ Reasoning: The premise indicates that the paper introduces (hence, defines or ex
 
 pk: Similar to 9, but more severe. GPT is assuming that any "general A" is also "B", where A and B are distinct. 
 LM: See my discussion of 2.  The paper could both introduce and generalize something.
+vcvp:
 ----------
 
 23. Premise: Both of them generalise the concept of algebra on a monad T.
@@ -395,6 +406,7 @@ Reasoning: The premise involves defining "eventually cyclic Boolean flows" and "
 
 pk: GPT makes up non-existing relationships.
 LM: this is reading too much in!
+vcvp: "likely depends" is not "logically depends", no entailment.
 ----------
 
 25. Premise: The axioms resemble those for monoidal Abelian categories with the addition of an involutive functor.
@@ -413,6 +425,7 @@ X is Y
 
 I think most people would take the first as implicating the negation of the second.
 (I know that in mathematics we might say that everything 'resembles' itself, but this is not the everyday usage.)
+vcvp:
 ----------
 
 26. Premise: A comparison to other approaches will be made in the introduction.
@@ -426,6 +439,7 @@ Reasoning: The premise indicates that a "comparison to other approaches" will be
 pk: "Bs will be made" does not contradict "comparison of Bs will be made"
 LM: The introduction could do both 'compare' and 'make' other approaches.
 This is basically the same issue that we saw several times already.
+vcvp: agreed
 ----------
 
 27. Premise: In the general case, no such meaningful partition could exist.
@@ -448,14 +462,14 @@ Machine_reasoning: Label: neutral
 
 Reasoning: The premise mentions giving the last clause a "precise meaning," which suggests a formal approach to defining or explaining it. The hypothesis suggests that the paper treats the clause "in an informal but meaningful way." Since the premise emphasizes precision (which is typically associated with formality) and the hypothesis suggests informality, there is no direct contradiction, but neither is there direct entailment because the two descriptions do not necessarily align in method. Thus, the relationship is neutral, as one cannot definitively conclude from the premise whether the paper's treatment is formal or informal—only that it aims to provide a precise meaning.
 
-pk:Should it indeed be N? (And I don't like this hypothesis)
+pk: Should it indeed be N? (And I don't like this hypothesis)
 LM: I see "Since the premise emphasizes precision (which is typically associated with formality) and the hypothesis suggests informality. . ."
 But I would go on to say Contradiction.  Why does it say "there is no direct contradiction"??
-
+vcvp:
 ----------
 
 29. Premise: Now coproduct preservation yields an approach to product measures.
-Hypothesis: Now the preservation of product measures yields coproduct preservatioN:
+Hypothesis: Now the preservation of product measures yields coproduct preservation:
 Label: neutral
 Machine_label: contradiction
 Machine_reasoning: Label: contradiction
@@ -477,6 +491,7 @@ Reasoning: The premise states that two ideas were combined, including "cartesian
 
 pk: GPT just missed some information in the premise.
 LM: ChatGPT evidently didn't read 'recent' in the Premise.
+vcvp: agreed
 ----------
 
 31. Premise: The category of Set-valued presheaves on a small category B is a topos.
@@ -489,6 +504,7 @@ Reasoning: The given premise specifies that the category of Set-valued presheave
 
 pk: GPT doesn't understand that B and C are not referential. (But in general, I don't like this premise, it's just a poor mathematical sentence: B plays no role here and should be removed.)
 LM: Bad handling of variables.  We could probably ask ChatGPT questions to test its understanding of bound and free variables in mathematical English.
+vcvp: agreed that is about names
 ----------
 
 32. Premise: The category of Set-valued presheaves on a small category B is a topos.
@@ -501,6 +517,7 @@ Reasoning: The premise states a fact about the category of Set-valued presheaves
 
 pk: see 31
 LM: Again it took B as a specific category, and a reader would take B to be a bound universally-quantified variable.
+vcvp: agreed
 ----------
 
 33. Premise: Vertical arrows give rise to modules between representables.
@@ -513,6 +530,7 @@ Reasoning: The premise specifically states that "vertical arrows" are responsibl
 
 pk: "A yields B" does not contradict "C yields B"; similar to 4
 LM: another alignment error.
+vcvp: agreed
 ----------
 
 34. Premise: Various concerns suggest looking for internal co-categories in categories with strong logical structure.
@@ -525,5 +543,6 @@ Reasoning: The premise mentions that "various concerns suggest looking for inter
 
 pk: There might be the same problem as in 8 with the bare plural. If it can be interpreted existentially, then I think GPT might be right (although there is still the question of whether "various concerns suggest ..." implies "we suggest...")
 LM: I can see that this is one that reasonable people will disagree on. The way I see things, this one hinges on whether the 'suggest' is taken universally or not.  In the premise, I think it is naturally interpreted universally.  But then if we read the hypothesis the same way, we should not have an entailment.  ChatGPT says 'The additional specification "in categories with strong logical structure" in the premise doesn't contradict but merely provides context to the suggestion,' I agree with this.  But then it loses me when it goes on to say 'making the hypothesis a more general statement that follows logically from the premise.'  I would think since what is suggested is indeed more general, it does NOT follow from the premise.  If I said, 'I suggest that you attend [all] concerts given by famous musicians', it does not imply 'I suggest that you attend [all] concerts'.
+vcvp:
 ----------
 
