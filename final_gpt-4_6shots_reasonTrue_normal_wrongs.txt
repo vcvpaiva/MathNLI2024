@@ -39,7 +39,8 @@ which directly contradicts the scope outlined in the premise. Since the premise 
 
 pk: "we use A to do B" does not contradict "we use C to do D"
 vcvp: in this case "we use A to do B" does not contradict "we use A to do D"
-LM: This is a similar problem to 1, actually.  ChatGPT basically aligns the Premise and Hypothesis, and if there is a discrepancy anyplace, it jumps on this and says 'Contradiction'.  In this case, it aligns as follows: 
+LM: This is a similar problem to 1, actually.  ChatGPT basically aligns the Premise and Hypothesis, 
+and if there is a discrepancy anyplace, it jumps on this and says 'Contradiction'.  In this case, it aligns as follows: 
 
 We . . . . to define . . . X
 We . . . . to define . . . Y
@@ -60,9 +61,9 @@ from functors in category theory) are used to prove "Corollary 8.5." Not only do
 natural transformations) differ between the premise and the hypothesis, but the specific corollaries mentioned also
 differ (8.3 vs. 8.5), leading to a direct contradiction.
 
-vcvp: what?
 pk: "A is used to prove B" does not contradict "C is used to prove D"
 LM: ChatGPT seems to be thinking that 'These functors' contradicts 'These natural transformations'.  I think most people mathematicians would rather think that the two occurrences of 'these' refer to different things. If I'm right, then what we have is a failure to accommodate the two "these"s.  If I'm wrong -- if most people would try to have a coreference between the functors and the natural transformations -- then this one would be non-sensical rather than neutral, I think.
+vcvp: agree with both
 ----------
 
 4. Premise: Here ``balanced'' can be omitted if the category is additive.
@@ -95,7 +96,7 @@ categories" and also mistakenly refers to "notation" rather than "notion." Given
 triangulated vs. monoidal categories) and the context (notion vs. notation) differ significantly, the hypothesis
 directly contradicts the specific content of the premise.
 
-vcvp: 'differs significantly' does not imply contradicts
+vcvp: 'differs significantly' (in the reasoning) does not imply contradicts
 pk: "we do A" does not contradict "we do B" 
 LM: agree with pk.   A paper can do both A and B.
 ----------
@@ -111,6 +112,8 @@ but it does not claim to unify "all previous constructions." The use of "many" s
 potentially incomplete portion of previous constructions, whereas the hypothesis extends this to "all," implying 
 totality and completeness. This discrepancy between "many" and "all" suggests that the two statements directly 
 oppose each other, leading to the judgment of contradiction.
+
+
 
 vcvp: "this result unifies many X" does not contradict "this result unifies all X"
 pk: GPT mistakenly thinks that "most" contradicts to "all"
@@ -132,6 +135,7 @@ contradiction.
 
 pk: "A can be done exclusively in way B" does not contradict "A can be done in way B" (some pragmatic assumption)
 LM: agreed, and Pavel is more eloquent here than my point.
+vcvp: agreed
 ----------
 
 8. Premise: Using these ideas, we also prove that magnetic monopoles form an abelian group.
@@ -144,14 +148,14 @@ Reasoning: The premise specifically mentions that "magnetic monopoles form an ab
 "magnetic" is removed in the hypothesis to just "monopoles", it does not change the core assertion that these 
 entities form an abelian group. 
 
-what?
+(vcvp: what? removing the qualifier means that all bets are off, it changes the core assertion)
 
 Since the defining feature (forming an abelian group) remains intact and 
 unchallenged, the removal of "magnetic" does not negate or alter the truth of the premise. Instead, it slightly
 generalizes the statement but still supports the conclusion that monopoles form an abelian group. Therefore, this 
 relationship is an entailment as the hypothesis is a true assertion under the condition set by the premise.
 
-vcvp: only math?
+vcvp: agree with Larry 
 pk:  Is the hypothesis ambiguous between the universal and existential reading? Is there a reading like "Using these ideas, we also prove that some monopoles form an abelian group"? If yes, then I think GPT is right.
 LM: ChatGPT seems to suggest that it's okay to drop important adjectives!  
 I thought that it could be saying that we have
@@ -160,8 +164,7 @@ I thought that it could be saying that we have
   Hypothesis: Using these ideas, we also prove that SOME monopoles form an abelian group.
   
 This WOULD follow.  But it's not how any mathematician would read this.
-And it's also not what the explanation suggests.   The explanation says 'the removal of "magnetic" does not negate or alter the truth of the premise. Instead, it slightly
-generalizes the statement'.  That's consistent with the universal reading of the monopoles and magnetic monopoles.  Then the error is to assume that a generalization of a given sentence follows from that sentence.  Of course this is wrong in general.
+And it's also not what the explanation suggests.   The explanation says 'the removal of "magnetic" does not negate or alter the truth of the premise. Instead, it slightly generalizes the statement'.  That's consistent with the universal reading of the monopoles and magnetic monopoles.  Then the error is to assume that a generalization of a given sentence follows from that sentence.  Of course this is wrong in general.
 ----------
 
 9. Premise: We introduce a 3-dimensional categorical structure which we call intercategory.
@@ -176,9 +179,10 @@ the hypothesis rephrases the definition provided in the premise, thereby directl
 the premise. Thus, the relationship between the premise and the hypothesis is one of entailment, as the hypothesis
 essentially restates the concept introduced in the premise with slightly different wording but equivalent meaning.
 
-vcvp: if GPT4 is right we need a NEW neutral!
+
 pk:  GPT is being sloppy with its reasoning. The premise doesn't mention that an intercategory is a category (but GPT is probably assuming this).
-LM: this one is 'my bad'.  I think ChatGPT is correct, and its reasoning is on the right track.    The hypothesis talks about '3-dimensional intercategorical' structure and the premise about '3-dimensional categorical' structure.  In fact, the Hypothesis is kind of tautological.  It would be like 'A circle is a curve making a circular path'.  So I think ChatGPT basically got this one -- and its reasoning is not so bad.  
+LM: this one is 'my bad'.  I think ChatGPT is correct, and its reasoning is on the right track.    The hypothesis talks about '3-dimensional intercategorical' structure and the premise about '3-dimensional categorical' structure.  In fact, the Hypothesis is kind of tautological.  It would be like 'A circle is a curve making a circular path'.  So I think ChatGPT basically got this one -- and its reasoning is not so bad. 
+vcvp: if GPT4 is right we need a NEW neutral!
 ----------
 
 10. Premise: This paper extends the Day Reflection Theorem to skew monoidal categories.
@@ -199,7 +203,7 @@ vcvp: is this really a contradiction?
 pk: I think GPT is right, and this is N
 LM: It's kind of non-sensical to derive a result from a category.
 I still think it's a contradiction.  But I could imagine some results being both derived from and extending to the same other results.  Is that why you two think it's N??
-vcvp: yes, I think there are results that can both be derived from and extended to the same X.
+vcvp: yes, I think some results can both be derived from and extended to the same X.
 
 ----------
 
@@ -235,13 +239,13 @@ it leaves open the possibility that the work could be either independent or cumu
 relationship between the premise and the hypothesis is neutral, as the premise does not confirm or deny the claim 
 made in the hypothesis.
 
-vcvp: again I think we had organized *not* to do temporal phenomena, these are more complicated reasoning than should appear in this set.
+vcvp: again I think we had organized *not* to do temporal phenomena, these are more complicated reasonings than should appear in this set.
 pk: I think GPT is right: we may be the first to be building "synthetic theory of distributions", and our first steps may involve other kinds of "synthetic theories" which were developed by "many others" earlier
 LM:  If the Premise says 'we take the first steps', it doesn't mean "we take the first steps by building on others' work".  It contradicts that! (But I see that Pavel totally disagrees here, so I should think again.)
 
 ----------
 
-13. Premise: We introduce various notions of partial topos, i.e.: `topos without terminal object'.
+13. Premise: We introduce various notions of partial topos, i.e. `topos without terminal object'.
 Hypothesis: We also introduce various notions of topos with a terminal object.
 Label: neutral
 Machine_label: contradiction
@@ -252,7 +256,7 @@ Reasoning: The premise clearly states that the introduced notions of partial top
 a terminal object are also introduced. Since having a terminal object and lacking one are mutually exclusive 
 conditions in the context of a topos, the hypothesis contradicts the premise.
 
-vcvp: agreed that We do X, We do Y does not give you a contradiction
+vcvp: agree that 'We do X', 'We do Y' does not give you a contradiction
 pk: "we do A" does not contradict "we do B"; similar to 5
 LM: A little like the problematic examples above, saying BOTH
 
@@ -285,8 +289,8 @@ Machine_reasoning: Label: neutral
 
 Reasoning: The premise mentions a discussion of results from a 'categorical' viewpoint, which implies a focus on category theory or related concepts. The hypothesis shifts this focus to a discussion that is based entirely on concepts from partial differential equations. The shift from a categorical discussion to one based entirely on partial differential equations means that we cannot directly infer that one necessarily includes the other or vice versa. Therefore, the relationship between these two statements is neutral, as the premise does not give us enough information to conclude that the hypothesis must be true, false, or is directly entailed by the premise.
 
-pk: If we're treating concepts as black boxes, then I think GPT is right, because without any external knowledge it's impossible to know whether partial differential equations have anything to do with "categorical discussion"
-LM: I think that ChatGPT and Pavel have a point.  My intent was to hing that concepts from PDE should be conceptually far from category theory.  That way, we get a contradiction.
+pk: If we're treating concepts as black boxes, then I think GPT is right, because without any external knowledge, it's impossible to know whether partial differential equations have anything to do with "categorical discussion"
+LM: I think that ChatGPT and Pavel have a point.  My intent was to thing that concepts from PDE should be conceptually far from category theory.  That way, we get a contradiction.
 I'm not sure how 'black-box-y' we want to be in this.
 vcvp: agree that maybe we're using CT knowledge. let's change it.
 ----------
@@ -301,7 +305,7 @@ Reasoning: The premise specifies that in "many applications" of quasigroups, iso
 
 pk: pretty much the same as 6 (maybe a bit more complex)
 LM: as in 6, ChatGPT seems to think that 'many' CONTRADICTS 'all'. 
-vcvp: agreed.
+vcvp: agreed
 ----------
 
 17. Premise: The problem of relating a factorization system to a pointed endofunctor is considered.
@@ -341,7 +345,7 @@ Reasoning: The premise talks about proposing a recursive definition of V-n-categ
 
 pk: this is similar to 9, GPT is assuming that if we define V-n-cats, then we will have also defined V-cats since it's a more general concept
 LM: I think the 'n' is very much at issue, as is the word 'propose'.  The way I read things, the paper proposes the definitions related to V-n-categories.  But maybe the definition for V-categories (without the n) were already around.  So the paper need not propose them!  That's why I think this one is Neutral.
-vcvp: not entailment.
+vcvp: hmm, this one is bad, because you're disagreeing about why it's neutral.
 
 ----------
 
@@ -355,7 +359,7 @@ Reasoning: The premise explicitly states that the required simplicial approximat
 
 pk: Is the hypothesis even a grammatical sentence? At least I've never heard the phrase "results for", where "result" is used as a verb. 
 LM: The H is not a full sentence, so this looks like NONSENSE to me.
-vcvp: need another hypothesis then
+vcvp: we need a hypothesis that's a full sentence
 
 ----------
 
@@ -395,6 +399,7 @@ Reasoning: The premise states that both subjects generalize the concept of algeb
 
 pk: I think GPT is right if we're treating concepts as black boxes.
 LM: I take it that 'monadic algebra' and 'algebra on a monad' are the same.  Then I would think that 'generalization' and 'special case' are contradictory.   The 'reasoning' by ChatGPT says neutral about this, and I disagree.
+vcvp: another difficult one, bc I'm not sure that 'monadic algebra' and 'algebra on a monad' are the same.
 ----------
 
 24. Premise: We define eventually cyclic Boolean flows and the eventually cyclic spectrum of a Boolean flow.
@@ -426,7 +431,7 @@ X is Y
 
 I think most people would take the first as implicating the negation of the second.
 (I know that in mathematics we might say that everything 'resembles' itself, but this is not the everyday usage.)
-vcvp:
+vcvp: I don't think that "most people would take the first as implicating the negation of the second." But even if the axioms were the same the premise would imply the hypothesis, not contradict it?
 ----------
 
 26. Premise: A comparison to other approaches will be made in the introduction.
@@ -453,6 +458,7 @@ Reasoning: The premise states that in the general case, no meaningful partition 
 
 pk: "In the general case, B doesn't exist" does not entail "in particular cases, B exists"
 LM: I think that it doesn't understand 'in general' correctly.   If we say 'in general' in mathematics, we don't go on to say "outside the general case" . . . That's one problem.  Even worse is the 'reasoning' that seems to suggest Entailment here. It looks like ChatGPT is suggesting Gricean implicature in its second sentence.
+vcvp: agree
 ----------
 
 28. Premise: The present paper starts by supplying this last clause with a precise meaning.
@@ -466,7 +472,7 @@ Reasoning: The premise mentions giving the last clause a "precise meaning," whic
 pk: Should it indeed be N? (And I don't like this hypothesis)
 LM: I see "Since the premise emphasizes precision (which is typically associated with formality) and the hypothesis suggests informality. . ."
 But I would go on to say Contradiction.  Why does it say "there is no direct contradiction"??
-vcvp:
+vcvp: I think agree with Larry that "precise meaning"  is in contradiction with "informal way"
 ----------
 
 29. Premise: Now coproduct preservation yields an approach to product measures.
@@ -479,7 +485,10 @@ Reasoning: The premise states that "coproduct preservation yields an approach to
 
 pk: "A yields B" does not contradict "C yields D"; similar to 2
 LM: I think here what we have is that 'A yields B' doesn't contradict 'C yields A'.
-
+vcvp: agree 
+A= coproduct preservation
+B= product measures
+C= preservation of product measures
 ----------
 
 30. Premise: We combine two recent ideas: cartesian differential categories, and restriction categories.
@@ -544,6 +553,6 @@ Reasoning: The premise mentions that "various concerns suggest looking for inter
 
 pk: There might be the same problem as in 8 with the bare plural. If it can be interpreted existentially, then I think GPT might be right (although there is still the question of whether "various concerns suggest ..." implies "we suggest...")
 LM: I can see that this is one that reasonable people will disagree on. The way I see things, this one hinges on whether the 'suggest' is taken universally or not.  In the premise, I think it is naturally interpreted universally.  But then if we read the hypothesis the same way, we should not have an entailment.  ChatGPT says 'The additional specification "in categories with strong logical structure" in the premise doesn't contradict but merely provides context to the suggestion,' I agree with this.  But then it loses me when it goes on to say 'making the hypothesis a more general statement that follows logically from the premise.'  I would think since what is suggested is indeed more general, it does NOT follow from the premise.  If I said, 'I suggest that you attend [all] concerts given by famous musicians', it does not imply 'I suggest that you attend [all] concerts'.
-vcvp:
+vcvp: I thought the problem was with concerns versus "we".
 ----------
 
