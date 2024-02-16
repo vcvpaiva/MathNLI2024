@@ -89,18 +89,18 @@ Hypothesis: We use these relations to define analytic versions of compactificati
 Label: N
 
 ID: 19
-Premise: These functors are used in the paper only to prove Corollary~8.3.
-Hypothesis: These functors are used in the paper  to prove Corollary~8.3.
+Premise: These functors are used in the paper only to prove corollary 8.3.
+Hypothesis: These functors are used in the paper  to prove corollary 8.3.
 Label: E
 
 ID: 20
-Premise: These functors are used in the paper only to prove Corollary~8.3.
-Hypothesis: These functors are not used in the paper  to prove Corollary~8.3.
+Premise: These functors are used in the paper only to prove corollary 8.3.
+Hypothesis: These functors are not used in the paper  to prove corollary 8.3.
 Label: C
 
 ID: 21
-Premise: These functors are used in the paper only to prove Corollary~8.3.
-Hypothesis: These natural transformations are used in the paper to prove Corollary~8.5.
+Premise: These functors are used in the paper only to prove corollary 8.3.
+Hypothesis: These natural transformations are used in the paper to prove corollary 8.5.
 Label: N
 
 ID: 22
