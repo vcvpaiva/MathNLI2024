@@ -135,7 +135,7 @@ contradiction.
 
 pk: "A can be done exclusively in way B" does not contradict "A can be done in way B" (some pragmatic assumption)
 LM: agreed, and Pavel is more eloquent here than my point.
-vcvp: agreed
+vcvp: "A is encoded using B" does not contradict "the only way to encode A is by means of B"
 ----------
 
 8. Premise: Using these ideas, we also prove that magnetic monopoles form an abelian group.
