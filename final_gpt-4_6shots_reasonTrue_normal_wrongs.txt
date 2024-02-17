@@ -115,7 +115,7 @@ oppose each other, leading to the judgment of contradiction.
 
 
 
-vcvp: "this result unifies many X" does not contradict "this result unifies all X"
+vcvp: "A unifies many X" does not contradict "A unifies all X"
 pk: GPT mistakenly thinks that "most" contradicts to "all"
 LM: ChatGPT seems to think that 'many' CONTRADICTS 'all'. See also 16.
 ----------
@@ -155,7 +155,7 @@ unchallenged, the removal of "magnetic" does not negate or alter the truth of th
 generalizes the statement but still supports the conclusion that monopoles form an abelian group. Therefore, this 
 relationship is an entailment as the hypothesis is a true assertion under the condition set by the premise.
 
-vcvp: agree with Larry 
+vcvp: "using A, we also prove B" does not entail "using A, we also prove C"
 pk:  Is the hypothesis ambiguous between the universal and existential reading? Is there a reading like "Using these ideas, we also prove that some monopoles form an abelian group"? If yes, then I think GPT is right.
 LM: ChatGPT seems to suggest that it's okay to drop important adjectives!  
 I thought that it could be saying that we have
@@ -204,6 +204,7 @@ pk: I think GPT is right, and this is N
 LM: It's kind of non-sensical to derive a result from a category.
 I still think it's a contradiction.  But I could imagine some results being both derived from and extending to the same other results.  Is that why you two think it's N??
 vcvp: yes, I think some results can both be derived from and extended to the same X.
+"A extends B to C" does not contradict "A derives B from C"
 
 ----------
 
@@ -223,6 +224,7 @@ vcvp: temporal reasoning?
 pk: similar to 7, some pragmatic assumption (but in this case, this pragmatic assumption has to do with temporality)
 LM: To me, the prior construction mentioned in the Hypothesis could be OK-but-not-really-explicit.  That is, I focus on the word 'explicit'.   The category could have been constructed before by using some high-powered tool that shows the existence but not in an explicit way.   If I'm right here, this is the reason for the Neutral label.  Now you two might think that I'm leaning too much on category theory experience.
 vcvp: I thought we had banned temporal reasoning from this dataset.
+but  GPT-4 is right when it says "The premise makes no mention of a prior construction or of someone named Opetope being involved in such a construction." and making no mention should point at neutrality, not contradiction.
 ----------
 
 12. Premise: We take some first steps in providing a synthetic theory of distributions.
