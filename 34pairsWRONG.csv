@@ -1,0 +1,35 @@
+ID,SentenceA,SentenceB,GoldLabel,GKR4NLILabel,Justification,,,
+1,"If the category is additive, we define a sheaf of categories of analytic functions.","If the category is non-additive, we define a sheaf of categories of analytic functions.",N,NEUTRAL,,,,1
+2,We use these relations to define analytic versions of Arakelov compactifications of affine arithmetic varieties.,We use these relations to define analytic versions of  compactifications of non-varieties.,N,NEUTRAL,,,,1
+3,These functors are used in the paper only to prove Corollary~8.3.,These natural transformations are used in the paper  to prove Corollary~8.5.,N,NEUTRAL,,,,1
+4,Here ``balanced'' can be omitted if the category is additive.,Here ``balanced'' can be omitted if the category is multiplicative.,N,NEUTRAL,,,,1
+5,We introduce the notion of mutation pairs in pseudo-triangulated categories.,We introduce the notation of mutation pairs in monoidal categories.,N,ENTAILMENT,[EQUALS(lemma)],,,0
+6,This result unifies many previous constructions of quotient triangulated categories.,This result unifies all previous constructions of quotient triangulated categories.,N,NEUTRAL,,,,1
+7,The syntactic architecture of such interconnections is encoded using the visual language of wiring diagrams.,The only way to encode the syntactic structure of such interconnections is by means of the visual language of wiring diagrams.,N,NEUTRAL,,,,1
+8,"Using these ideas, we also prove that magnetic monopoles form an abelian group.","Using these ideas, we also prove that monopoles form an abelian group.",N,ENTAILMENT,[SUBCLASS(lemma)],,,0
+9,We introduce a 3-dimensional categorical structure which we call intercategory.,An intercategory is a category with a 3-dimensional intercategorical structure.,N,NEUTRAL,,,,1
+10,This paper extends the Day Reflection Theorem to skew monoidal categories.,This paper derives the Day Reflection Theorem from skew monoidal categories.,C,ENTAILMENT,[EQUALS(embed)],Pavel says N,,0
+11,We give an explicit construction of the category Opetope of opetopes.,The category of opetopes was previously constructed by someone named Opetope.,N,NEUTRAL,,,,1
+12,We take some first steps in providing a synthetic theory of distributions.,We build on synthetic theories of many others in order to provide a synthetic theory of distributions.,C,NEUTRAL,,Pavel says N,,0
+13,"We introduce various notions of partial topos, i.e. `topos without terminal object'.",We also introduce various notions of topos with a terminal object.,N,NEUTRAL,,,,1
+14,"In such a framework, the globular nerve always satisfies the Kan condition.",The globular nerve only satisfies the Kan condition under very special assumptions.,N,NEUTRAL,,,,1
+15,We give a categorical discussion of such results.,We  give a discussion of such results using concepts drawn entirely from partial differential equations.,C,NEUTRAL,,Pavel says N,,0
+16,In many applications of quasigroups isotopies and homotopies are more important than isomorphisms and homomorphisms.,"In all applications of quasigroups, isotopies are more important than isomorphisms.",N,NEUTRAL,,,,1
+17,The problem of relating a factorization system to a pointed endofunctor is considered.,A factorization system can be easily related to anything without any problem arising.,C,NEUTRAL,,Pavel says N,,0
+18,The problem of relating a factorization system to a pointed endofunctor is considered.,A pointed endofunctor cannot be related to a factorization system.,N,NEUTRAL,,,,1
+19,This paper proposes a recursive definition of V-n-categories and their morphisms.,This paper proposes a definition of V-categories.,N,ENTAILMENT,[SUBCLASS(lemma)],,,0
+20,The required simplicial approximation results for simplicial sets and their proofs are given in full.,Approximation results for simplicial sets and their proofs,N,ENTAILMENT,[SUBCLASS(lemma)],non-grammatical,,0
+21,Subdivision behaves like a covering in the context of the techniques displayed here.,Subdivision and other techniques do not mix well.,N,NEUTRAL,,,,1
+22,This paper introduces the notions of vector field and flow on a general differentiable stack.,This paper generalizes the notions of vector field and flow on a stack.,N,ENTAILMENT,[EQUALS(embed)],,,0
+23,Both of them generalise the concept of algebra on a monad T.,Both of them are special cases of a monadic algebra.,C,NEUTRAL,,Pavel says N,,0
+24,We define eventually cyclic Boolean flows and the eventually cyclic spectrum of a Boolean flow.,The definition of the eventually cyclic spectrum of a Boolean flow uses the definition of eventually cyclic Boolean flows.,N,NEUTRAL,,,,1
+25,The axioms resemble those for monoidal Abelian categories with the addition of an involutive functor.,The axioms are the ones of monoidal Abelian categories.,N,NEUTRAL,,,,1
+26,A comparison to other approaches will be made in the introduction.,Other approaches will be made in the introduction.,N,ENTAILMENT,[SUBCLASS(lemma)],,,0
+27,"In the general case, no such meaningful partition could exist.","In special cases, the partition is very meaningful.",N,NEUTRAL,,,,1
+28,The present paper starts by supplying this last clause with a precise meaning.,The present paper treats the last clause in an informal but meaningful way.,C,NEUTRAL,,Pavel says N,,0
+29,Now coproduct preservation yields an approach to product measures.,Now the preservation of product measures yields coproduct preservation:,N,ENTAILMENT,[SUBCLASS(lemma)],,,0
+30,"cartesian differential categories, and restriction categories.",The idea of restriction categories is not old.,E,NEUTRAL,,,,0
+31,The category of Set-valued presheaves on a small category B is a topos.,The category of Set-valued presheaves on a small category C is a topos.,E,NEUTRAL,,,,0
+32,The category of Set-valued presheaves on a small category B is a topos.,There exists a small category C such that the category of Set-valued presheaves on C is not a topos.,C,NEUTRAL,,,,0
+33,Vertical arrows give rise to modules between representables.,Horizontal arrows give rise to modules between representables.,N,CONTRADICTION,[DISJOINT(lemma)],,,0
+34,Various concerns suggest looking for internal co-categories in categories with strong logical structure.,We suggest looking for internal co-categories.,N,NEUTRAL,,,,
