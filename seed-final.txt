@@ -425,7 +425,7 @@ Label: E
 
 ID: 86
 Premise: This paper extends the Day Reflection Theorem to skew monoidal categories.
-Hypothesis: This paper derives the Day Reflection Theorem from skew monoidal categories.
+Hypothesis: The Day Reflection Theorem is beyond the scope of this paper, and we will not address it.
 Label: C
 
 ID: 87
@@ -500,7 +500,7 @@ Label: E
 
 ID: 101
 Premise: We take some first steps in providing a synthetic theory of distributions.
-Hypothesis: We build on synthetic theories of many others in order to provide a synthetic theory of distributions.
+Hypothesis: First steps in providing a synthetic theory of distributions date back to the previous century, and we will not reiterate them.
 Label: C
 
 ID: 102
@@ -560,7 +560,7 @@ Label: E
 
 ID: 113
 Premise: We give a categorical discussion of such results.
-Hypothesis: We  give a discussion of such results using concepts drawn entirely from partial differential equations..
+Hypothesis: We discuss such results, but our discussion will not be categorical.
 Label: C
 
 ID: 114
@@ -665,7 +665,7 @@ Label: E
 
 ID: 134
 Premise: The problem of relating a factorization system to a pointed endofunctor is considered.
-Hypothesis: A factorization system can be easily related to anything without any problem arising.
+Hypothesis: The problem of relating a factorization system to a pointed endofunctor is not discussed.
 Label: C
 
 ID: 135
@@ -790,7 +790,7 @@ Label: C
 
 ID: 159
 Premise: The required simplicial approximation results for simplicial sets and their proofs are given in full.
-Hypothesis: Approximation results for simplicial sets and their proofs
+Hypothesis: Simplicial approximation results for quasi-categories are omitted.
 Label: N
 
 ID: 160
@@ -920,7 +920,7 @@ Label: E
 
 ID: 185
 Premise: Both of them generalise the concept of algebra on a monad T.
-Hypothesis: Both of them are special cases of a monadic algebra.
+Hypothesis: Exactly one of them generalises the concept of algebra on a monad T.
 Label: C
 
 ID: 186
@@ -1055,7 +1055,7 @@ Label: E
 
 ID: 212
 Premise: The present paper starts by supplying this last clause with a precise meaning.
-Hypothesis: The present paper treats the last clause in an informal but meaningful way.
+Hypothesis: We will not be concerned with giving this last clause a precise meaning.
 Label: C
 
 ID: 213
